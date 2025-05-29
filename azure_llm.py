@@ -1,18 +1,14 @@
 import os
-from openai import AzureOpenAI
 import json
+from openai import AzureOpenAI
 from dotenv import load_dotenv
+
 load_dotenv()
-# Azure credentials
-AZURE_API_KEY = os.getenv("AZURE_OPENAI_KEY")
-AZURE_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
-AZURE_DEPLOYMENT_NAME = os.getenv("AZURE_DEPLOYMENT_NAME", "gpt-4o")
-AZURE_API_VERSION = "2024-12-01-preview"
 
 client = AzureOpenAI(
-    api_key=AZURE_API_KEY,
-    api_version=AZURE_API_VERSION,
-    azure_endpoint=AZURE_ENDPOINT
+    api_key=os.getenv("AZURE_OPENAI_KEY"),
+    api_version="2024-12-01-preview",
+    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
 )
 
 def parse_query_with_azure_llm(query: str) -> dict:
@@ -20,11 +16,11 @@ def parse_query_with_azure_llm(query: str) -> dict:
         system_prompt = (
             "You are a resume filter parser. Convert user queries into structured filters "
             "as JSON like: {\"field\": \"skills_extracted\", \"value\": \"ux designer\", \"filter_type\": \"contains\"}. "
-            "No explanation. No markdown. No triple backticks. Only valid JSON."
+            "Respond only with valid JSON — no explanations, no markdown, no extra characters."
         )
 
         response = client.chat.completions.create(
-            model=AZURE_DEPLOYMENT_NAME,
+            model=os.getenv("AZURE_DEPLOYMENT_NAME"),  # e.g., "gpt-35-turbo"
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": query}
@@ -35,8 +31,13 @@ def parse_query_with_azure_llm(query: str) -> dict:
 
         reply = response.choices[0].message.content.strip("` \n")
         print("🧠 Azure LLM response:", reply)
+
+        # Defensive parsing
         return json.loads(reply)
 
+    except json.JSONDecodeError:
+        print("❌ JSON decode error — model likely returned unexpected content.")
+        return {}
     except Exception as e:
-        print(f"❌ Error from Azure OpenAI: {e}")
+        print(f"❌ General error from Azure OpenAI: {e}")
         return {}
