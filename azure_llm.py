@@ -1,5 +1,5 @@
 import os
-import openai
+from openai import AzureOpenAI
 import json
 from dotenv import load_dotenv
 load_dotenv()
@@ -9,7 +9,7 @@ AZURE_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
 AZURE_DEPLOYMENT_NAME = os.getenv("AZURE_DEPLOYMENT_NAME", "gpt-4o")
 AZURE_API_VERSION = "2024-12-01-preview"
 
-client = openai.AzureOpenAI(
+client = AzureOpenAI(
     api_key=AZURE_API_KEY,
     api_version=AZURE_API_VERSION,
     azure_endpoint=AZURE_ENDPOINT
