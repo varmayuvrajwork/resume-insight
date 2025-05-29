@@ -1,0 +1,4 @@
+id,created_by,created_date,updated_by,updated_date,is_certificate_match,is_job_title_match,states
+2e426e25-625e-4d5d-a7e2-c161cd827b27,NULL,2023-05-18 06:04:09,NULL,2023-05-18 06:04:09,_binary '0',_binary '0',null
+4a77cb56-6385-4e91-a146-f9d08bceb380,NULL,2023-05-18 06:07:08,4aabe1f6-d219-4523-aa69-3dbdcbd99f01,2023-05-18 06:53:18,_binary '',_binary '',null
+585e31f0-d60c-41aa-96ba-eea30bcbc592,NULL,2023-07-13 05:40:09,9e11456c-f0f6-48c7-9cbf-6f4447379727,2023-07-13 05:40:22,_binary '0',_binary '0',

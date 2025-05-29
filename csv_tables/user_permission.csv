@@ -1,0 +1,155 @@
+id,created_by,created_date,updated_by,updated_date,can_modify,can_view,menu_name,user_id
+0046cba8-bda4-43ff-ad97-3e8c2c7c0259,NULL,2023-09-13 12:38:15,NULL,2023-09-13 12:38:15,_binary '0',_binary '',Subcontractors,752fd611-5719-4e3b-9cb7-ef871480255f
+00611466-5887-4963-a2ad-a1cb2c34ed1d,NULL,2023-07-28 06:47:42,NULL,2023-07-28 06:47:42,_binary '0',_binary '',Projects,18c191bf-3acf-42b7-a6f9-269d629dd762
+039c3a10-610a-4799-a87d-5c86bb1fa743,NULL,NULL,NULL,2024-08-08 10:55:45,_binary '0',_binary '0',Projects,311f6d91-80b0-408f-9bae-74e2b18a73b5
+03abfc70-25ec-4b68-b445-6e87a190f36c,NULL,NULL,NULL,2024-07-08 06:40:33,_binary '0',_binary '0',Masters,c12ae087-09e6-4f55-b003-36936118dc09
+03b31d39-135d-467c-bb62-4d80387bb2ea,NULL,2023-07-13 09:03:31,NULL,2023-07-13 09:03:31,_binary '0',_binary '',Subcontractors,c53045b3-2e6d-44e8-8d9b-43b3fc077b89
+08284b75-1640-473a-8be1-e875d5f6074b,NULL,NULL,NULL,2023-07-12 05:20:57,_binary '0',_binary '0',Reports,2b161eb7-3fe1-456f-91e8-71ffd457f117
+09ffa959-3540-4577-82ac-a6d97785246c,NULL,2024-07-05 13:11:18,01,2024-07-05 13:33:11,_binary '0',_binary '',Subcontractors,c97699af-67a5-4e1b-b7c9-d3161763475e
+0ac76329-8e91-4b30-9a6b-71457cd56322,NULL,NULL,NULL,2023-09-13 06:15:47,_binary '0',_binary '',Jobs,33eb3c34-6e0c-4d44-aa95-6fad80620230
+11bd1369-601e-4743-9515-f03bdd0a895d,NULL,NULL,NULL,2023-07-12 05:21:22,_binary '',_binary '',Projects,456fd968-7d31-4963-ad9c-2eec376720cf
+11d6fa60-bb9b-4eed-a921-2d524d2a7ae2,NULL,2023-06-12 12:19:13,NULL,2023-06-12 12:19:13,_binary '0',_binary '0',Projects,3dd11f69-9760-485f-aff4-229ed77fd814
+11d88835-caa3-4bd9-8d50-74b0d5e6026f,NULL,2023-09-13 07:38:21,NULL,2023-09-13 07:38:21,_binary '0',_binary '0',Masters,da26e2f2-65bf-4e5a-8f2f-66911eae495b
+13ae26b6-4e4d-446b-83ee-58ee568e996d,NULL,NULL,NULL,2023-07-12 05:20:57,_binary '',_binary '',Jobs,2b161eb7-3fe1-456f-91e8-71ffd457f117
+155f3104-48d6-4774-b059-279f1f54d63b,NULL,NULL,NULL,2024-07-08 06:40:33,_binary '0',_binary '0',Reports,c12ae087-09e6-4f55-b003-36936118dc09
+16c3cbd3-4728-43ac-a95f-115748cc9214,NULL,NULL,NULL,2023-07-12 05:21:02,_binary '',_binary '',Jobs,271ea8c5-b2c1-4f68-9ba6-fa1859a37070
+1a7ad114-8f47-4146-bdd0-3d5d08c0d79f,NULL,NULL,NULL,2023-07-12 05:21:15,_binary '',_binary '',Clients,693da701-ca1a-4996-9e8b-2706c2daaba9
+1ac0d764-ccfc-4968-b13b-08bd691a896b,NULL,2023-07-12 13:28:35,NULL,2023-07-12 13:28:35,_binary '0',_binary '0',Jobs,cdbdeea2-8c89-4240-8936-23c0d8dd98e2
+1e9f7345-832d-4022-bd6d-61d43bf4999f,NULL,NULL,01,2024-06-24 07:30:54,_binary '0',_binary '0',Reports,90dfd38a-26c0-4af5-9b00-72e614d11753
+1ed746b4-39e0-4dab-8fc7-30e5a7100ac7,NULL,NULL,NULL,2023-08-21 06:40:27,_binary '0',_binary '0',Masters,387fdf0c-e871-4984-8cb8-1e98a591b349
+204354de-6526-4ee3-90ea-22e41a6ffb86,NULL,2023-06-12 12:19:13,NULL,2023-06-12 12:19:13,_binary '0',_binary '0',Masters,3dd11f69-9760-485f-aff4-229ed77fd814
+21b22ef9-8775-4812-ab07-69bb3aed4be9,NULL,NULL,NULL,2023-07-12 05:21:19,_binary '',_binary '',Jobs,803a0cc8-6b59-46d9-92c5-f350c339ddd5
+2376a9ce-9275-4882-8fdc-d65f3f8da956,NULL,NULL,NULL,2023-07-12 05:21:02,_binary '0',_binary '0',Masters,271ea8c5-b2c1-4f68-9ba6-fa1859a37070
+24feed96-9bff-4e1c-b1f9-43c00176b41e,NULL,NULL,NULL,2023-08-21 06:40:27,_binary '0',_binary '',Subcontractors,387fdf0c-e871-4984-8cb8-1e98a591b349
+2ba4b0a5-8cb4-49e8-b87a-431785bfde63,NULL,NULL,NULL,2024-07-08 06:40:33,_binary '0',_binary '',Subcontractors,c12ae087-09e6-4f55-b003-36936118dc09
+2c42a961-042b-4e23-8890-e1f17fea502f,NULL,NULL,NULL,2023-07-12 05:21:11,_binary '',_binary '',Projects,9593f6fb-e6ff-41a1-8bee-80782cb03fe2
+2cf4be4c-20cf-43eb-874b-bd0ac4250a55,NULL,2023-09-13 12:38:15,NULL,2023-09-13 12:38:15,_binary '0',_binary '0',Reports,752fd611-5719-4e3b-9cb7-ef871480255f
+2d1bc25b-ba7a-4b7b-accb-f9a12b05aedc,NULL,NULL,NULL,2023-07-12 05:21:11,_binary '',_binary '',Clients,9593f6fb-e6ff-41a1-8bee-80782cb03fe2
+2f160b0c-6c43-4f41-8ac7-84ad85d89aba,NULL,NULL,NULL,2023-07-12 05:21:19,_binary '0',_binary '0',Clients,803a0cc8-6b59-46d9-92c5-f350c339ddd5
+308797f6-0f82-445c-a67c-f3d982ce5776,NULL,NULL,01,2024-06-24 07:30:54,_binary '0',_binary '',Projects,90dfd38a-26c0-4af5-9b00-72e614d11753
+32c13841-9d8f-49d3-9095-8a417fe947c5,NULL,NULL,NULL,2024-07-08 06:40:33,_binary '',_binary '',Workers,c12ae087-09e6-4f55-b003-36936118dc09
+35ed08d8-05c6-481e-855b-c66f572c539a,NULL,2024-07-05 13:11:18,01,2024-07-05 13:33:11,_binary '0',_binary '0',Reports,c97699af-67a5-4e1b-b7c9-d3161763475e
+398311af-cfbb-4634-a58a-353a16198403,NULL,2023-06-12 12:19:13,NULL,2023-06-12 12:19:13,_binary '0',_binary '0',Workers,3dd11f69-9760-485f-aff4-229ed77fd814
+3b8229b4-7eaa-4bd6-8c9f-4be0827a6390,NULL,NULL,01,2024-06-24 07:30:54,_binary '0',_binary '',Jobs,90dfd38a-26c0-4af5-9b00-72e614d11753
+3ed37017-c3b0-4b89-bb46-f63cff8f5f80,NULL,2024-06-28 06:03:12,NULL,2024-06-28 06:03:12,_binary '0',_binary '',Projects,75139b0b-96c7-41e1-ac8d-803df118a32a
+410dd689-5cd4-4018-b346-88e0a85b7725,NULL,2024-07-05 13:11:18,01,2024-07-05 13:33:11,_binary '0',_binary '0',Masters,c97699af-67a5-4e1b-b7c9-d3161763475e
+41c27d22-a6ef-494d-a96a-c809d89fdf31,NULL,2024-06-28 06:03:12,NULL,2024-06-28 06:03:13,_binary '0',_binary '',Jobs,75139b0b-96c7-41e1-ac8d-803df118a32a
+4358a857-c24e-4fc6-9c4a-13e2fed3fe25,NULL,NULL,NULL,2023-07-12 05:21:22,_binary '0',_binary '0',Reports,456fd968-7d31-4963-ad9c-2eec376720cf
+47d90cea-461a-43ef-b36f-30abc2043782,NULL,2023-07-28 06:47:42,NULL,2023-07-28 06:47:42,_binary '0',_binary '',Clients,18c191bf-3acf-42b7-a6f9-269d629dd762
+4bc0bf99-2a15-4bae-86a0-d9da892f4a67,NULL,2023-07-13 09:03:31,NULL,2023-07-13 09:03:31,_binary '',_binary '',Workers,c53045b3-2e6d-44e8-8d9b-43b3fc077b89
+4c28006a-8737-40e2-8934-f85c21c9bc12,NULL,2024-06-24 07:30:41,NULL,2024-06-24 07:30:41,_binary '0',_binary '0',Reports,d0e4c624-89d2-4ead-87a4-6d4ddca45a3b
+4d6e2675-ef50-4c62-a187-af7fc731d19e,NULL,2023-07-28 06:47:42,NULL,2023-07-28 06:47:42,_binary '',_binary '',Workers,18c191bf-3acf-42b7-a6f9-269d629dd762
+4e528563-8769-4c9b-849e-496e53a24610,NULL,2023-06-12 11:58:26,NULL,2023-06-12 11:58:26,_binary '0',_binary '0',Masters,45955559-4ee8-4096-8b48-b137613f9800
+4ff519b4-0047-48bf-babb-c56e927b4b41,NULL,NULL,NULL,2023-07-12 05:21:15,_binary '',_binary '',Workers,693da701-ca1a-4996-9e8b-2706c2daaba9
+5002867e-379d-4407-9da3-9c458f99d850,NULL,NULL,NULL,2024-08-08 10:55:45,_binary '0',_binary '',Workers,311f6d91-80b0-408f-9bae-74e2b18a73b5
+523f5b0b-8641-48a7-8846-d7fdccf7622c,NULL,NULL,NULL,2024-08-08 10:55:45,_binary '',_binary '',Subcontractors,311f6d91-80b0-408f-9bae-74e2b18a73b5
+52b18e2d-065f-4d55-b03d-988e327d5883,NULL,2023-06-12 11:58:26,NULL,2023-06-12 11:58:26,_binary '0',_binary '0',Jobs,45955559-4ee8-4096-8b48-b137613f9800
+550cd363-9d21-48a2-aa9d-29eef5198045,NULL,NULL,NULL,2023-07-12 05:21:02,_binary '',_binary '',Clients,271ea8c5-b2c1-4f68-9ba6-fa1859a37070
+5511c140-d022-4afb-91b2-9bce1f7b262c,NULL,NULL,NULL,2023-07-12 05:21:19,_binary '',_binary '',Workers,803a0cc8-6b59-46d9-92c5-f350c339ddd5
+55bcc442-9d9c-43c8-bbe4-1738451138ca,NULL,2024-06-28 06:03:13,NULL,2024-06-28 06:03:13,_binary '0',_binary '0',Masters,75139b0b-96c7-41e1-ac8d-803df118a32a
+5c50b25d-2fef-43c6-b63c-4720f951f660,NULL,2023-07-12 13:28:35,NULL,2023-07-12 13:28:35,_binary '0',_binary '0',Clients,cdbdeea2-8c89-4240-8936-23c0d8dd98e2
+5c77c3ac-c0bb-4f67-8eb9-d0063dc51819,NULL,NULL,NULL,2024-07-08 06:40:33,_binary '0',_binary '',Jobs,c12ae087-09e6-4f55-b003-36936118dc09
+5cf52aa1-9f3e-4722-b275-94b1558f1bff,NULL,2024-06-28 06:03:12,NULL,2024-06-28 06:03:12,_binary '0',_binary '',Clients,75139b0b-96c7-41e1-ac8d-803df118a32a
+5e939c0d-eea1-41c3-8ad3-e690cb746b80,NULL,NULL,NULL,2023-07-12 05:21:22,_binary '0',_binary '0',Masters,456fd968-7d31-4963-ad9c-2eec376720cf
+5f8c07f7-56f3-4d20-a13d-19b00a129fa2,NULL,NULL,NULL,2023-07-12 05:21:15,_binary '',_binary '',Projects,693da701-ca1a-4996-9e8b-2706c2daaba9
+5fe3f359-f68c-4e61-8b43-a7905285f8af,NULL,NULL,NULL,2024-08-08 10:55:45,_binary '0',_binary '0',Reports,311f6d91-80b0-408f-9bae-74e2b18a73b5
+6070ce2f-f941-4a9a-bb31-ba2c04726770,NULL,NULL,01,2024-06-24 07:30:54,_binary '0',_binary '0',Masters,90dfd38a-26c0-4af5-9b00-72e614d11753
+61f62d4c-98cc-4963-8492-af9dc62df278,NULL,NULL,NULL,2023-09-13 06:15:45,_binary '0',_binary '',Clients,33eb3c34-6e0c-4d44-aa95-6fad80620230
+61fe0f96-0330-4e7e-8911-329327687915,NULL,2023-06-12 11:58:26,NULL,2023-06-12 11:58:26,_binary '0',_binary '0',Workers,45955559-4ee8-4096-8b48-b137613f9800
+624cb241-0f68-47b5-af6d-ca59b314d366,NULL,2023-07-12 13:28:35,NULL,2023-07-12 13:28:35,_binary '0',_binary '0',Masters,cdbdeea2-8c89-4240-8936-23c0d8dd98e2
+63af8f6a-94d2-4cef-b610-73cc10346051,NULL,NULL,NULL,2023-08-21 06:40:27,_binary '0',_binary '',Projects,387fdf0c-e871-4984-8cb8-1e98a591b349
+64f92bfc-e9cf-41cf-ac45-ede3aa9e7cc0,NULL,2023-09-13 07:38:21,NULL,2023-09-13 07:38:21,_binary '0',_binary '',Jobs,da26e2f2-65bf-4e5a-8f2f-66911eae495b
+65cbf459-e255-479c-9b47-ef009758a9f1,NULL,2023-07-12 13:33:22,NULL,2023-07-12 13:33:22,_binary '0',_binary '0',Masters,ce228da4-d4b2-44df-a609-a523175b9ecc
+6a24e9f9-c9b9-47d8-9b5f-05ae84d7c9e5,NULL,2023-09-13 07:38:19,NULL,2023-09-13 07:38:19,_binary '0',_binary '',Subcontractors,da26e2f2-65bf-4e5a-8f2f-66911eae495b
+6a3d187d-e8b1-424d-8f94-769cae218a31,NULL,NULL,NULL,2023-09-13 06:15:46,_binary '0',_binary '',Projects,33eb3c34-6e0c-4d44-aa95-6fad80620230
+6beb4298-4874-46e7-a969-507575123578,NULL,2023-07-12 13:33:22,NULL,2023-07-12 13:33:22,_binary '0',_binary '',Jobs,ce228da4-d4b2-44df-a609-a523175b9ecc
+70dddf26-f23f-480d-9faf-24acf20c30d8,NULL,2024-06-24 07:30:41,NULL,2024-06-24 07:30:41,_binary '',_binary '',Workers,d0e4c624-89d2-4ead-87a4-6d4ddca45a3b
+7197b7fe-a133-4385-9d16-d7bd3b0a4f02,NULL,NULL,NULL,2023-07-12 05:21:19,_binary '0',_binary '0',Masters,803a0cc8-6b59-46d9-92c5-f350c339ddd5
+757a7104-41e4-4faa-8f57-d085cef5765e,NULL,2023-06-12 11:58:26,NULL,2023-06-12 11:58:26,_binary '0',_binary '0',Subcontractors,45955559-4ee8-4096-8b48-b137613f9800
+759988a5-07c9-4de0-9f97-a2f7fcb89f77,NULL,NULL,NULL,2023-07-12 05:21:11,_binary '',_binary '',Subcontractors,9593f6fb-e6ff-41a1-8bee-80782cb03fe2
+759f379a-31db-4bf3-9989-39f9481285b9,NULL,2023-09-13 07:38:21,NULL,2023-09-13 07:38:21,_binary '0',_binary '0',Reports,da26e2f2-65bf-4e5a-8f2f-66911eae495b
+7c5f7a01-8354-454c-ab45-adfa9364af56,NULL,NULL,NULL,2023-09-13 06:15:45,_binary '0',_binary '',Subcontractors,33eb3c34-6e0c-4d44-aa95-6fad80620230
+7c6e2f1e-e784-47b0-8ab1-a42bca89a249,NULL,NULL,NULL,2024-08-08 10:55:45,_binary '0',_binary '0',Jobs,311f6d91-80b0-408f-9bae-74e2b18a73b5
+7ef6316f-a01e-475b-adeb-93942dfff8eb,NULL,NULL,01,2024-06-24 07:30:54,_binary '0',_binary '',Clients,90dfd38a-26c0-4af5-9b00-72e614d11753
+804c1444-a95d-441a-a9d4-ee9edae00c4a,NULL,2024-06-24 07:30:41,NULL,2024-06-24 07:30:41,_binary '0',_binary '',Projects,d0e4c624-89d2-4ead-87a4-6d4ddca45a3b
+8692d6ee-b202-4b07-8790-aecaba86b452,NULL,NULL,NULL,2023-07-12 05:21:02,_binary '',_binary '',Projects,271ea8c5-b2c1-4f68-9ba6-fa1859a37070
+875ce6a3-1d65-4f11-965a-4cf8665b1e73,NULL,NULL,NULL,2023-07-12 05:21:15,_binary '0',_binary '0',Reports,693da701-ca1a-4996-9e8b-2706c2daaba9
+8d8ccf79-cae0-4c57-9654-50f6bfe75b2a,NULL,2024-07-05 13:11:18,01,2024-07-05 13:33:11,_binary '0',_binary '',Projects,c97699af-67a5-4e1b-b7c9-d3161763475e
+8fdcfe30-50de-4b0b-a158-77e2276c8149,NULL,NULL,NULL,2023-07-12 05:21:15,_binary '',_binary '',Subcontractors,693da701-ca1a-4996-9e8b-2706c2daaba9
+92055bdb-2718-44d0-8cb8-f86e7a875fb6,NULL,2023-09-13 12:38:15,NULL,2023-09-13 12:38:15,_binary '',_binary '',Workers,752fd611-5719-4e3b-9cb7-ef871480255f
+9391d5f1-cb52-4dde-aba9-bba123e6898c,NULL,2023-06-12 12:19:13,NULL,2023-06-12 12:19:13,_binary '0',_binary '0',Subcontractors,3dd11f69-9760-485f-aff4-229ed77fd814
+94f15ff6-076c-43b8-929e-698105aeb68f,NULL,2023-09-13 07:38:20,NULL,2023-09-13 07:38:20,_binary '',_binary '',Workers,da26e2f2-65bf-4e5a-8f2f-66911eae495b
+95bd3845-5ef9-4bf4-abd3-89c25aa37f3f,NULL,2023-07-12 13:33:22,NULL,2023-07-12 13:33:22,_binary '0',_binary '',Subcontractors,ce228da4-d4b2-44df-a609-a523175b9ecc
+96b2ba42-aba7-4b88-888d-1fa1c6bb254b,NULL,NULL,NULL,2023-07-12 05:21:02,_binary '',_binary '',Workers,271ea8c5-b2c1-4f68-9ba6-fa1859a37070
+96c5659b-423d-41e5-b0c9-18a8dd2bb811,NULL,NULL,NULL,2023-07-12 05:20:57,_binary '',_binary '',Workers,2b161eb7-3fe1-456f-91e8-71ffd457f117
+98796f6e-d73c-48e1-9b1d-f64b8f8d224e,NULL,2023-07-12 13:33:22,NULL,2023-07-12 13:33:22,_binary '0',_binary '0',Reports,ce228da4-d4b2-44df-a609-a523175b9ecc
+9999b0ce-592a-4ea7-b27c-b1e530fb1dd7,NULL,2024-07-05 13:11:18,01,2024-07-05 13:33:11,_binary '0',_binary '',Jobs,c97699af-67a5-4e1b-b7c9-d3161763475e
+9d600f34-384f-4578-a59f-b42924dbe490,NULL,2023-09-13 12:38:15,NULL,2023-09-13 12:38:15,_binary '0',_binary '0',Masters,752fd611-5719-4e3b-9cb7-ef871480255f
+9f5aa63d-b2ff-4fb0-b323-98261b27d627,NULL,NULL,NULL,2023-07-12 05:21:02,_binary '0',_binary '0',Reports,271ea8c5-b2c1-4f68-9ba6-fa1859a37070
+a00bff8e-f08b-4ece-b3e6-b9ff1ffcc4e2,NULL,NULL,NULL,2023-09-13 06:15:48,_binary '0',_binary '0',Reports,33eb3c34-6e0c-4d44-aa95-6fad80620230
+a3f3e241-d1c9-4862-a8ff-d7ae934e2071,NULL,NULL,NULL,2024-08-08 10:55:45,_binary '',_binary '',Clients,311f6d91-80b0-408f-9bae-74e2b18a73b5
+a5b10d58-10c2-432d-afe6-73cfcecad2df,NULL,2024-06-28 06:03:13,NULL,2024-06-28 06:03:13,_binary '0',_binary '0',Reports,75139b0b-96c7-41e1-ac8d-803df118a32a
+a5c44fcb-cb9d-4e85-9473-605c39685baf,NULL,NULL,NULL,2023-09-13 06:15:46,_binary '',_binary '',Workers,33eb3c34-6e0c-4d44-aa95-6fad80620230
+a613f631-731f-4ec0-a4ed-d44ced3d1301,NULL,NULL,NULL,2023-08-21 06:40:27,_binary '0',_binary '0',Reports,387fdf0c-e871-4984-8cb8-1e98a591b349
+a796c514-0c6a-4b21-bf6c-fa27f962a853,NULL,NULL,NULL,2023-07-12 05:21:15,_binary '0',_binary '0',Masters,693da701-ca1a-4996-9e8b-2706c2daaba9
+a825ae66-a25f-4d03-9a18-f74a373f53c9,NULL,NULL,01,2024-06-24 07:30:54,_binary '0',_binary '',Subcontractors,90dfd38a-26c0-4af5-9b00-72e614d11753
+a9a15740-2309-4711-852d-af0082d0ebb5,NULL,NULL,NULL,2023-07-12 05:20:57,_binary '',_binary '',Projects,2b161eb7-3fe1-456f-91e8-71ffd457f117
+ae616a6a-aa89-40d0-bfb6-4e97f48c8bd9,NULL,NULL,NULL,2024-08-08 10:55:45,_binary '0',_binary '0',Masters,311f6d91-80b0-408f-9bae-74e2b18a73b5
+af8554a0-6962-4732-b760-1130f2c5ae14,NULL,NULL,NULL,2023-07-12 05:21:02,_binary '',_binary '',Subcontractors,271ea8c5-b2c1-4f68-9ba6-fa1859a37070
+b3fe87d6-6556-41db-bbfe-76780bc74d00,NULL,NULL,NULL,2023-08-21 06:40:27,_binary '0',_binary '',Jobs,387fdf0c-e871-4984-8cb8-1e98a591b349
+b4bd02a1-f0c7-4f8e-8206-845959766a5c,NULL,2024-06-24 07:30:41,NULL,2024-06-24 07:30:41,_binary '0',_binary '',Subcontractors,d0e4c624-89d2-4ead-87a4-6d4ddca45a3b
+b5dad105-7b19-4f32-b033-a3ea67db28ba,NULL,NULL,NULL,2023-08-21 06:40:27,_binary '',_binary '',Workers,387fdf0c-e871-4984-8cb8-1e98a591b349
+b894cac4-e46d-48bc-bc19-60ee7b66dacf,NULL,NULL,NULL,2023-07-12 05:21:11,_binary '',_binary '',Jobs,9593f6fb-e6ff-41a1-8bee-80782cb03fe2
+ba321104-e3d2-4f1e-a1d8-23d5af63344c,NULL,NULL,NULL,2023-07-12 05:21:11,_binary '0',_binary '0',Reports,9593f6fb-e6ff-41a1-8bee-80782cb03fe2
+bb7eec2e-ade1-4f24-b1df-3c4885f8635e,NULL,2023-09-13 12:38:15,NULL,2023-09-13 12:38:15,_binary '0',_binary '',Jobs,752fd611-5719-4e3b-9cb7-ef871480255f
+bbe2bbb5-7361-4b71-97fc-286bdc32aa3d,NULL,NULL,NULL,2023-07-12 05:21:19,_binary '0',_binary '0',Subcontractors,803a0cc8-6b59-46d9-92c5-f350c339ddd5
+bc650b61-a2c6-4a64-b6be-54ee85b8e2cd,NULL,NULL,NULL,2024-07-08 06:40:33,_binary '0',_binary '',Projects,c12ae087-09e6-4f55-b003-36936118dc09
+bda509f5-7ed1-4e4e-a6bb-80fa032263f8,NULL,NULL,NULL,2023-07-12 05:20:57,_binary '',_binary '',Clients,2b161eb7-3fe1-456f-91e8-71ffd457f117
+bef6930d-a8e7-4b94-9e76-22616e10d913,NULL,2023-07-28 06:47:42,NULL,2023-07-28 06:47:42,_binary '0',_binary '0',Reports,18c191bf-3acf-42b7-a6f9-269d629dd762
+bfbd9253-ae71-49d1-b50f-da9edf79ee74,NULL,2023-06-12 11:58:26,NULL,2023-06-12 11:58:26,_binary '0',_binary '0',Clients,45955559-4ee8-4096-8b48-b137613f9800
+c082e273-93ec-420c-be18-59b72ef62757,NULL,2023-09-13 07:38:20,NULL,2023-09-13 07:38:20,_binary '0',_binary '',Projects,da26e2f2-65bf-4e5a-8f2f-66911eae495b
+c17f75bc-1e36-490e-b07d-b850385d449f,NULL,2023-07-12 13:33:22,NULL,2023-07-12 13:33:22,_binary '0',_binary '',Clients,ce228da4-d4b2-44df-a609-a523175b9ecc
+c240a9bd-0a39-4b61-b94f-ef05186d6c22,NULL,2023-09-13 12:38:14,NULL,2023-09-13 12:38:14,_binary '0',_binary '',Clients,752fd611-5719-4e3b-9cb7-ef871480255f
+c2f515ca-8649-4a13-ab48-22783e2f3f9d,NULL,2023-07-13 09:03:31,NULL,2023-07-13 09:03:31,_binary '0',_binary '',Clients,c53045b3-2e6d-44e8-8d9b-43b3fc077b89
+c376c8d9-a0ee-46bd-9ca9-203858195caf,NULL,2023-07-12 13:33:22,NULL,2023-07-12 13:33:22,_binary '0',_binary '',Workers,ce228da4-d4b2-44df-a609-a523175b9ecc
+c57b2014-5d13-4a31-a988-5edf7478e77d,NULL,2024-06-24 07:30:41,NULL,2024-06-24 07:30:41,_binary '0',_binary '',Jobs,d0e4c624-89d2-4ead-87a4-6d4ddca45a3b
+c7532820-69fe-40a6-be96-770ef61e406a,NULL,NULL,NULL,2023-07-12 05:21:19,_binary '',_binary '',Projects,803a0cc8-6b59-46d9-92c5-f350c339ddd5
+c7bdda07-7b86-4637-99ff-dc1dff5b8bd1,NULL,NULL,NULL,2023-07-12 05:21:22,_binary '',_binary '',Jobs,456fd968-7d31-4963-ad9c-2eec376720cf
+cb43823d-2f8f-4bba-953a-fb2c9f3731d0,NULL,2023-06-12 11:58:26,NULL,2023-06-12 11:58:26,_binary '0',_binary '0',Reports,45955559-4ee8-4096-8b48-b137613f9800
+cdc74b8b-00c7-44d7-b541-228ebf426305,NULL,NULL,01,2024-06-24 07:30:54,_binary '',_binary '',Workers,90dfd38a-26c0-4af5-9b00-72e614d11753
+d02a641f-c017-4bd6-88cc-a51e4bb870ce,NULL,2023-06-12 12:19:13,NULL,2023-06-12 12:19:13,_binary '0',_binary '0',Reports,3dd11f69-9760-485f-aff4-229ed77fd814
+d10d3946-02e5-468c-b0b7-107ee4146f8e,NULL,NULL,NULL,2023-07-12 05:20:57,_binary '',_binary '',Subcontractors,2b161eb7-3fe1-456f-91e8-71ffd457f117
+d6883e73-bba7-43ff-88f5-5d90c8369fa3,NULL,2023-07-28 06:47:42,NULL,2023-07-28 06:47:42,_binary '0',_binary '0',Masters,18c191bf-3acf-42b7-a6f9-269d629dd762
+d8aee46f-be70-4c79-8827-74185ec38038,NULL,2023-07-12 13:28:35,NULL,2023-07-12 13:28:35,_binary '0',_binary '0',Projects,cdbdeea2-8c89-4240-8936-23c0d8dd98e2
+d932e5a1-3081-40e1-8f96-95558e10477b,NULL,2023-06-12 12:19:13,NULL,2023-06-12 12:19:13,_binary '0',_binary '0',Clients,3dd11f69-9760-485f-aff4-229ed77fd814
+d95cb3dc-5dd4-4f87-a983-af98444054d4,NULL,2023-09-13 07:38:19,NULL,2023-09-13 07:38:19,_binary '0',_binary '',Clients,da26e2f2-65bf-4e5a-8f2f-66911eae495b
+d9d25c40-95b3-489f-9996-ee2be298b944,NULL,2023-09-13 12:38:15,NULL,2023-09-13 12:38:15,_binary '0',_binary '',Projects,752fd611-5719-4e3b-9cb7-ef871480255f
+da42b23a-40cf-4cf2-89c3-5c236b3bb4ea,NULL,NULL,NULL,2023-07-12 05:21:22,_binary '',_binary '',Subcontractors,456fd968-7d31-4963-ad9c-2eec376720cf
+dc6f4f00-20de-4285-8491-e38cdfc87e30,NULL,2023-07-13 09:03:31,NULL,2023-07-13 09:03:31,_binary '0',_binary '',Projects,c53045b3-2e6d-44e8-8d9b-43b3fc077b89
+de419c5c-11c9-4166-a8b6-f6cb8d4ce06a,NULL,2023-06-12 12:19:13,NULL,2023-06-12 12:19:13,_binary '0',_binary '0',Jobs,3dd11f69-9760-485f-aff4-229ed77fd814
+de497f55-0d1f-48f2-a885-9c41e963c1d9,NULL,NULL,NULL,2024-07-08 06:40:33,_binary '0',_binary '',Clients,c12ae087-09e6-4f55-b003-36936118dc09
+df3cd09c-f643-4866-a33b-9e807d13b0ee,NULL,2023-07-13 09:03:31,NULL,2023-07-13 09:03:31,_binary '0',_binary '0',Masters,c53045b3-2e6d-44e8-8d9b-43b3fc077b89
+e03186c3-89ba-442f-9a0c-848d9704ec6c,NULL,NULL,NULL,2023-07-12 05:21:15,_binary '',_binary '',Jobs,693da701-ca1a-4996-9e8b-2706c2daaba9
+e253f5c0-2cfa-41d7-add2-d7db526ab0b6,NULL,NULL,NULL,2023-08-21 06:40:27,_binary '0',_binary '',Clients,387fdf0c-e871-4984-8cb8-1e98a591b349
+e2b51d3c-fe56-4e09-bb62-c87c7b2ec91d,NULL,2023-07-28 06:47:42,NULL,2023-07-28 06:47:42,_binary '0',_binary '',Jobs,18c191bf-3acf-42b7-a6f9-269d629dd762
+e343bfd4-423f-40a1-a2dc-c5a14206c056,NULL,2024-06-28 06:03:12,NULL,2024-06-28 06:03:12,_binary '',_binary '',Workers,75139b0b-96c7-41e1-ac8d-803df118a32a
+e6640d56-c24a-4865-9d25-dba26caff7a6,NULL,2023-07-12 13:28:35,NULL,2023-07-12 13:28:35,_binary '0',_binary '0',Reports,cdbdeea2-8c89-4240-8936-23c0d8dd98e2
+e744f595-1caa-489e-a18d-5a325aaffe81,NULL,2024-06-24 07:30:41,NULL,2024-06-24 07:30:41,_binary '0',_binary '0',Masters,d0e4c624-89d2-4ead-87a4-6d4ddca45a3b
+e9a5d1a7-65c1-400e-b1bf-144962770efe,NULL,2024-06-28 06:03:12,NULL,2024-06-28 06:03:12,_binary '0',_binary '',Subcontractors,75139b0b-96c7-41e1-ac8d-803df118a32a
+ea239ed9-7355-41e6-bcc3-a80f6fc86f63,NULL,NULL,NULL,2023-07-12 05:21:19,_binary '0',_binary '0',Reports,803a0cc8-6b59-46d9-92c5-f350c339ddd5
+ef6525ee-2894-40cf-a25e-560b5e385abc,NULL,NULL,NULL,2023-09-13 06:15:47,_binary '0',_binary '0',Masters,33eb3c34-6e0c-4d44-aa95-6fad80620230
+efd55850-4f83-40ae-929b-1e19134e44d0,NULL,NULL,NULL,2023-07-12 05:21:11,_binary '0',_binary '0',Masters,9593f6fb-e6ff-41a1-8bee-80782cb03fe2
+f06a2f03-30bb-4681-ba1e-901ba3a40dca,NULL,2023-07-12 13:28:35,NULL,2023-07-12 13:28:35,_binary '0',_binary '0',Subcontractors,cdbdeea2-8c89-4240-8936-23c0d8dd98e2
+f0cfcc91-4b85-4d5e-8276-6720b75eb87b,NULL,NULL,NULL,2023-07-12 05:21:22,_binary '',_binary '',Workers,456fd968-7d31-4963-ad9c-2eec376720cf
+f12ddab6-0d05-45a0-82b1-300756f64ce1,NULL,2023-07-12 13:33:22,NULL,2023-07-12 13:33:22,_binary '0',_binary '',Projects,ce228da4-d4b2-44df-a609-a523175b9ecc
+f136d23e-be2e-4abe-979b-fd4e01187d23,NULL,NULL,NULL,2023-07-12 05:20:57,_binary '0',_binary '0',Masters,2b161eb7-3fe1-456f-91e8-71ffd457f117
+f4f7e3e4-c151-4496-b3d1-726f8685efc3,NULL,2023-07-12 13:28:35,NULL,2023-07-12 13:28:35,_binary '0',_binary '0',Workers,cdbdeea2-8c89-4240-8936-23c0d8dd98e2
+f8b675b6-4069-4535-80bf-7aa82f415181,NULL,2024-07-05 13:11:18,01,2024-07-05 13:33:11,_binary '',_binary '',Workers,c97699af-67a5-4e1b-b7c9-d3161763475e
+f8d70ab9-9d88-44ea-ae81-d73f78951d79,NULL,2023-07-28 06:47:42,NULL,2023-07-28 06:47:42,_binary '0',_binary '',Subcontractors,18c191bf-3acf-42b7-a6f9-269d629dd762
+fa32deb2-58bf-4f90-b641-f2196be331a5,NULL,2023-07-13 09:03:31,NULL,2023-07-13 09:03:31,_binary '0',_binary '',Jobs,c53045b3-2e6d-44e8-8d9b-43b3fc077b89
+fa64ae4b-923d-49da-a937-7ca7a7e7416c,NULL,2024-06-24 07:30:41,NULL,2024-06-24 07:30:41,_binary '0',_binary '',Clients,d0e4c624-89d2-4ead-87a4-6d4ddca45a3b
+fc35719f-28cd-4049-a0eb-38e19d758f4b,NULL,NULL,NULL,2023-07-12 05:21:11,_binary '',_binary '',Workers,9593f6fb-e6ff-41a1-8bee-80782cb03fe2
+fd7cc4ae-948d-45ad-b08a-0fced22fd167,NULL,2023-07-13 09:03:31,NULL,2023-07-13 09:03:31,_binary '0',_binary '0',Reports,c53045b3-2e6d-44e8-8d9b-43b3fc077b89
+fdbd8377-7a79-4d9d-bb95-845fff212ec3,NULL,2023-06-12 11:58:26,NULL,2023-06-12 11:58:26,_binary '0',_binary '0',Projects,45955559-4ee8-4096-8b48-b137613f9800
+fde62727-2aaf-4137-b97f-363048c05630,NULL,NULL,NULL,2023-07-12 05:21:22,_binary '',_binary '',Clients,456fd968-7d31-4963-ad9c-2eec376720cf
+ff239dea-d2e6-4d6b-8719-845459d3045e,NULL,2024-07-05 13:11:18,01,2024-07-05 13:33:11,_binary '0',_binary '',Clients,c97699af-67a5-4e1b-b7c9-d3161763475e

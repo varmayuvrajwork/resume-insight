@@ -1,0 +1,5 @@
+id,plan_id,description,name,created_date,updated_date,created_by,updated_by
+01,01,View job after it gets posted 3 days ago,THREE_DAYS_OLD,2023-07-06 09:45:50,2023-07-06 09:45:50,01,01
+02,02,View job after it gets posted 3 days ago,THREE_DAYS_OLD,2023-07-06 09:45:50,2023-07-06 09:45:50,01,01
+03,03,View new jobs posted instantly,LATEST_JOB,2023-07-06 09:45:50,2023-07-06 09:45:50,01,01
+04,04,View new jobs posted instantly,LATEST_JOB,2023-07-06 09:45:50,2023-07-06 09:45:50,01,01

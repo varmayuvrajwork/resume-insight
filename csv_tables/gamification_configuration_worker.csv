@@ -1,0 +1,2 @@
+id,created_by,created_date,updated_by,updated_date,certification_point,comments,job_point_for_max_hrs,job_point_for_mid_hrs,job_point_for_min_hrs,photo,power_user_point,qr_below_three_point,qr_four_five_point,qr_three_four_point,reference_point,sr_below_three_point,sr_four_five_point,sr_three_four_point,worker_experience_point,yellow_red_hat_point
+gcw01,01,NULL,01,2024-08-02 06:43:57,10,<p>Benefits of a Month for Worker</p>,20,10,5,NULL,100,0,20,10,5,0,20,10,10,200

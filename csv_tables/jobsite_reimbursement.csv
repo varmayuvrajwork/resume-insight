@@ -1,0 +1,2 @@
+id,created_by,created_date,updated_by,updated_date,amount,approved_date,description,is_off_cycle,reimbursement_date,status,title,week_end,week_start,jobsite_detail_id,worker_id
+c1d42731-47d4-4596-891a-6fbb9f94fd74,54fea194-4220-40ff-83dd-00c5a946dc25,2023-01-10 09:23:01,NULL,2023-01-10 09:23:01,15,NULL,cheaper than estimated,_binary '',2023-01-10 00:00:00,CREATED,Refund,2023-01-15 00:00:00,2023-01-09 00:00:00,65e49396-3b17-4702-b9c4-686b197c1be9,54fea194-4220-40ff-83dd-00c5a946dc25

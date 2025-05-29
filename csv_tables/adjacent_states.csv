@@ -1,0 +1,51 @@
+id,created_by,created_date,updated_by,updated_date,adjacent_states,no_of_adjacent_states,state
+1,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Florida,Georgia,Mississippi,Tennessee",4,Alabama
+10,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Alabama,Florida,North Carolina,South Carolina,Tennessee",5,Georgia
+11,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,NULL,0,Hawaii
+12,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Montana,Nevada,Oregon,Utah,Washington,Wyoming",6,Idaho
+13,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Indiana,Iowa,Michigan,Kentucky,Missouri,Wisconsin",6,Illinois
+14,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Illinois,Kentucky,Michigan,Ohio",4,Indiana
+15,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Illinois,Minnesota,Missouri,Nebraska,South Dakota,Wisconsin",6,Iowa
+16,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Colorado,Missouri,Nebraska,Oklahoma",4,Kansas
+17,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Illinois,Indiana,Missouri,Ohio,Tennessee,Virginia,West Virginia",7,Kentucky
+18,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Arkansas,Mississippi,Texas",0,Louisiana
+19,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,New Hampshire,1,Maine
+2,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,NULL,0,Alaska
+20,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Delaware,Pennsylvania,Virginia,West Virginia",4,Maryland
+21,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Connecticut,New Hampshire,New York,Rhode Island,Vermont",6,Massachusetts
+22,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Illinois,Indiana,Minnesota (water border),Ohio,Wisconsin",5,Michigan
+23,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Iowa,Michigan (water border),North Dakota,South Dakota,Wisconsin",5,Minnesota
+24,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Alabama,Arkanssas,Louisiana,Tennessee",4,Mississippi
+25,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Arkansas,Illinois,Iowa,Kansas,Kentucky,Nebraska,Oklahoma,Tennessee",8,Missouri
+26,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Idaho,North Dakota,South Dakota,Wyoming",4,Montana
+27,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Colorado,Iowa,Kansas,Missouri,South Dakota,Wyoming",6,Nebraska
+28,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Arizona,California,Idaho,Oregon,Utah",5,Nevada
+29,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Maine,Massachusetts,Vermont",3,New Hampshire
+3,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"California,Colorado,Nevada,New Mexico,Utah",5,Arizona
+30,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Delaware,New York,Pennsylvania",3,New Jersey
+31,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Arizona,Colorado,Oklahoma,Texas,Utah",5,New Mexico
+32,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Connecticut,Massachusetts,New Jersey,Pennsylvania,Rhode Island (water border),Vermont",6,New York
+33,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Georgia,South Carolina,Tennessee,Virginia",4,North Carolina
+34,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Minnesota,Montana,South Dakota",3,North Dakota
+35,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Indiana,Kentucky,Michigan,Pennsylvania,West Virginia",5,Ohio
+36,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Arkansas,Colorado,Kansas,Missouri,New Mexico,Texas",6,Oklahoma
+37,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"California,Idaho,Nevada,Washington",4,Oregon
+38,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Delaware,Maryland,New Jersey,New York,Ohio,West Virginia",6,Pennsylvania
+39,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Connecticut,Massachusetts,New York (water border)",3,Rhode Island
+4,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Louisiana,Mississippi,Missouri,Oklahoma,Tennessee,Texas",6,Arkansas
+40,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Georgia,North Carolina",2,South Carolina
+41,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Iowa,Minnesota,Montana,Nebraska,North Dakota,Wyoming",6,South Dakota
+42,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Alabama,Arkansas,Georgia,Kentucky,Mississippi,Missouri,North Carolina,Virginia",8,Tennessee
+43,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Arkansas,Louisiana,New Mexico,Oklahoma",4,Texas
+44,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Arizona,Colorado,Idaho,Nevada,New Mexico,Wyoming",6,Utah
+45,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Massachusetts,New Hampshire,New York",3,Vermont
+46,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Kentucky,Maryland,North Carolina,Tennessee,West Virginia",5,Virginia
+47,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Idaho,Oregon",2,Washington
+48,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Kentucky,Maryland,Ohio,Pennsylvania,Virginia",5,West Virginia
+49,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Illinois,Iowa,Michigan,Minnesota",4,Wisconsin
+5,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Arizona,Nevada,Oregon",3,California
+50,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Colorado,Idaho,Montana,Nebraska,South Dakota,Utah",6,Wyoming
+6,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Arizona,Kansas,Nebraska,New Mexico,Oklahoma,Utah,Wyoming",7,Colorado
+7,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Massachusetts,New York,Rhode Island",0,Connecticut
+8,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Maryland,New Jersey,Pennsylvania",3,Delaware
+9,SYSTEM,2021-09-09 11:48:52,SYSTEM,2021-09-09 11:48:52,"Alabama,Georgia",2,Florida

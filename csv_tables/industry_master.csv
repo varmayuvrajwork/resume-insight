@@ -1,0 +1,4 @@
+id,created_by,created_date,updated_by,updated_date,is_enable,logo,name
+5497877d-e632-46ae-8823-272f5073c085,01,2022-01-26 12:45:45,01,2022-01-26 12:45:45,_binary '',,Telecommunications
+aa3d743f-9d22-4f3d-a47d-7ba562198f6d,01,2021-07-02 17:08:46,01,2021-12-16 17:21:00,_binary '',NULL,Renewable Energy
+e600e938-609a-495d-abb8-c9344ba5b260,dae762a4-32c5-444e-a227-bc5cf114a668,2023-06-22 13:41:03,dae762a4-32c5-444e-a227-bc5cf114a668,2024-04-08 06:12:00,_binary '0',NULL,Test Industry

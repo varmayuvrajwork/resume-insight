@@ -1,0 +1,8 @@
+langchain-core 
+langchain 
+langchain-openai
+langgraph
+openai
+python-dotenv 
+pandas 
+tiktoken

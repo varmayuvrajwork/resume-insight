@@ -1,0 +1,4 @@
+id,key,value,set_for,client_id,created_by,updated_by,created_date,updated_date
+01,INVOICE_ADDITIONAL_NOTE,"Site Worker helps experienced, skilled workers find high-quality jobs in clean energy sectors, get paid at rates they deserve, and build their reputation across the network. ",PLATFORM,NULL,01,01,2023-08-16 09:45:50,2025-04-15 11:37:26
+296b93e5-68d8-47ff-9509-c2a6cea157a4,INVOICE_ADDITIONAL_NOTE,Updated Test Invoice text by HSZ,CLIENT,b91189e3-47b3-44b1-a685-0252e97c7d1c,01,01,2023-08-18 05:28:17,2023-08-18 10:01:58
+6a485b80-ad44-4368-ad51-368441ed684d,INVOICE_ADDITIONAL_NOTE,Client level Invoice additional note.,CLIENT,c8367fc3-d459-4b83-b48b-37521e6d4795,01,01,2023-08-17 01:07:36,2023-08-18 11:09:53

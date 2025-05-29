@@ -1,0 +1,3 @@
+id,password,last_login,is_superuser,username,first_name,last_name,email,is_staff,is_active,date_joined
+1,pbkdf2_sha256$600000$ktWh1VIHyRuUrrXwxWEAe0$qHaNWNNFX2cgigOsyn4M1U3NeHOxr7U+gsBMocOhOpM=,2023-04-24 12:37:57.779356,1,admin,,,,1,1,2023-04-24 12:10:25.015673
+2,pbkdf2_sha256$600000$Rct7rWG7SOTi5OMBgGuXCe$f2C1aJHqSRBLIrUsHeu9sEJ6Mw8yV+V2TlU6+ZRrplc=,2023-05-08 04:58:29.690868,1,c171,,,,1,1,2023-05-08 04:57:48.775844

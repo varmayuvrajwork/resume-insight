@@ -1,0 +1,5 @@
+id,plan_name,plan_desc,is_active,cost,trial_period_days,plan_type,stripe_price_id,created_date,updated_date,created_by,updated_by
+01,Basic,This is basic plan,_binary '',29,14,MONTHLY,price_1NzCa1CZiT41qxc1PGoqzZy3,2023-07-06 09:45:50,2023-07-06 09:45:50,01,01
+02,Basic,This is basic plan,_binary '',348,14,ANNUAL,price_1NgLfgCZiT41qxc1IYsE9HAa,2023-07-06 09:45:50,2023-07-06 09:45:50,01,01
+03,Premium,This is premium plan,_binary '',49,14,MONTHLY,price_1NgLd4CZiT41qxc1zkEaZW8m,2023-07-06 09:45:50,2023-07-06 09:45:50,01,01
+04,Premium,This is premium plan,_binary '',588,14,ANNUAL,price_1NgLd4CZiT41qxc1qvcx14Tg,2023-07-06 09:45:50,2023-07-06 09:45:50,01,01

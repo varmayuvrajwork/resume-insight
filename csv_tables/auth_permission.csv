@@ -1,0 +1,517 @@
+id,name,content_type_id,codename
+1,Can add log entry,1,add_logentry
+2,Can change log entry,1,change_logentry
+3,Can delete log entry,1,delete_logentry
+4,Can view log entry,1,view_logentry
+5,Can add permission,2,add_permission
+6,Can change permission,2,change_permission
+7,Can delete permission,2,delete_permission
+8,Can view permission,2,view_permission
+9,Can add group,3,add_group
+10,Can change group,3,change_group
+11,Can delete group,3,delete_group
+12,Can view group,3,view_group
+13,Can add user,4,add_user
+14,Can change user,4,change_user
+15,Can delete user,4,delete_user
+16,Can view user,4,view_user
+17,Can add content type,5,add_contenttype
+18,Can change content type,5,change_contenttype
+19,Can delete content type,5,delete_contenttype
+20,Can view content type,5,view_contenttype
+21,Can add session,6,add_session
+22,Can change session,6,change_session
+23,Can delete session,6,delete_session
+24,Can view session,6,view_session
+25,Can add adjacent states,7,add_adjacentstates
+26,Can change adjacent states,7,change_adjacentstates
+27,Can delete adjacent states,7,delete_adjacentstates
+28,Can view adjacent states,7,view_adjacentstates
+29,Can add approve client attachment,8,add_approveclientattachment
+30,Can change approve client attachment,8,change_approveclientattachment
+31,Can delete approve client attachment,8,delete_approveclientattachment
+32,Can view approve client attachment,8,view_approveclientattachment
+33,Can add approve client detail,9,add_approveclientdetail
+34,Can change approve client detail,9,change_approveclientdetail
+35,Can delete approve client detail,9,delete_approveclientdetail
+36,Can view approve client detail,9,view_approveclientdetail
+37,Can add auth group,10,add_authgroup
+38,Can change auth group,10,change_authgroup
+39,Can delete auth group,10,delete_authgroup
+40,Can view auth group,10,view_authgroup
+41,Can add auth group permissions,11,add_authgrouppermissions
+42,Can change auth group permissions,11,change_authgrouppermissions
+43,Can delete auth group permissions,11,delete_authgrouppermissions
+44,Can view auth group permissions,11,view_authgrouppermissions
+45,Can add auth permission,12,add_authpermission
+46,Can change auth permission,12,change_authpermission
+47,Can delete auth permission,12,delete_authpermission
+48,Can view auth permission,12,view_authpermission
+49,Can add auth user,13,add_authuser
+50,Can change auth user,13,change_authuser
+51,Can delete auth user,13,delete_authuser
+52,Can view auth user,13,view_authuser
+53,Can add auth user groups,14,add_authusergroups
+54,Can change auth user groups,14,change_authusergroups
+55,Can delete auth user groups,14,delete_authusergroups
+56,Can view auth user groups,14,view_authusergroups
+57,Can add auth user user permissions,15,add_authuseruserpermissions
+58,Can change auth user user permissions,15,change_authuseruserpermissions
+59,Can delete auth user user permissions,15,delete_authuseruserpermissions
+60,Can view auth user user permissions,15,view_authuseruserpermissions
+61,Can add bank detail master,16,add_bankdetailmaster
+62,Can change bank detail master,16,change_bankdetailmaster
+63,Can delete bank detail master,16,delete_bankdetailmaster
+64,Can view bank detail master,16,view_bankdetailmaster
+65,Can add candidate pipeline,17,add_candidatepipeline
+66,Can change candidate pipeline,17,change_candidatepipeline
+67,Can delete candidate pipeline,17,delete_candidatepipeline
+68,Can view candidate pipeline,17,view_candidatepipeline
+69,Can add certificate master,18,add_certificatemaster
+70,Can change certificate master,18,change_certificatemaster
+71,Can delete certificate master,18,delete_certificatemaster
+72,Can view certificate master,18,view_certificatemaster
+73,Can add change request,19,add_changerequest
+74,Can change change request,19,change_changerequest
+75,Can delete change request,19,delete_changerequest
+76,Can view change request,19,view_changerequest
+77,Can add change request attachment,20,add_changerequestattachment
+78,Can change change request attachment,20,change_changerequestattachment
+79,Can delete change request attachment,20,delete_changerequestattachment
+80,Can view change request attachment,20,view_changerequestattachment
+81,Can add change request line item,21,add_changerequestlineitem
+82,Can change change request line item,21,change_changerequestlineitem
+83,Can delete change request line item,21,delete_changerequestlineitem
+84,Can view change request line item,21,view_changerequestlineitem
+85,Can add change request reject reason,22,add_changerequestrejectreason
+86,Can change change request reject reason,22,change_changerequestrejectreason
+87,Can delete change request reject reason,22,delete_changerequestrejectreason
+88,Can view change request reject reason,22,view_changerequestrejectreason
+89,Can add chat message,23,add_chatmessage
+90,Can change chat message,23,change_chatmessage
+91,Can delete chat message,23,delete_chatmessage
+92,Can view chat message,23,view_chatmessage
+93,Can add city master,24,add_citymaster
+94,Can change city master,24,change_citymaster
+95,Can delete city master,24,delete_citymaster
+96,Can view city master,24,view_citymaster
+97,Can add client msa,25,add_clientmsa
+98,Can change client msa,25,change_clientmsa
+99,Can delete client msa,25,delete_clientmsa
+100,Can view client msa,25,view_clientmsa
+101,Can add client profile,26,add_clientprofile
+102,Can change client profile,26,change_clientprofile
+103,Can delete client profile,26,delete_clientprofile
+104,Can view client profile,26,view_clientprofile
+105,Can add closeoutline item,27,add_closeoutlineitem
+106,Can change closeoutline item,27,change_closeoutlineitem
+107,Can delete closeoutline item,27,delete_closeoutlineitem
+108,Can view closeoutline item,27,view_closeoutlineitem
+109,Can add close out package request,28,add_closeoutpackagerequest
+110,Can change close out package request,28,change_closeoutpackagerequest
+111,Can delete close out package request,28,delete_closeoutpackagerequest
+112,Can view close out package request,28,view_closeoutpackagerequest
+113,Can add close out package request attachment,29,add_closeoutpackagerequestattachment
+114,Can change close out package request attachment,29,change_closeoutpackagerequestattachment
+115,Can delete close out package request attachment,29,delete_closeoutpackagerequestattachment
+116,Can view close out package request attachment,29,view_closeoutpackagerequestattachment
+117,Can add close out package request reject reason,30,add_closeoutpackagerequestrejectreason
+118,Can change close out package request reject reason,30,change_closeoutpackagerequestrejectreason
+119,Can delete close out package request reject reason,30,delete_closeoutpackagerequestrejectreason
+120,Can view close out package request reject reason,30,view_closeoutpackagerequestrejectreason
+121,Can add company master,31,add_companymaster
+122,Can change company master,31,change_companymaster
+123,Can delete company master,31,delete_companymaster
+124,Can view company master,31,view_companymaster
+125,Can add cumulative leader board,32,add_cumulativeleaderboard
+126,Can change cumulative leader board,32,change_cumulativeleaderboard
+127,Can delete cumulative leader board,32,delete_cumulativeleaderboard
+128,Can view cumulative leader board,32,view_cumulativeleaderboard
+129,Can add diversity category master,33,add_diversitycategorymaster
+130,Can change diversity category master,33,change_diversitycategorymaster
+131,Can delete diversity category master,33,delete_diversitycategorymaster
+132,Can view diversity category master,33,view_diversitycategorymaster
+133,Can add django admin log,34,add_djangoadminlog
+134,Can change django admin log,34,change_djangoadminlog
+135,Can delete django admin log,34,delete_djangoadminlog
+136,Can view django admin log,34,view_djangoadminlog
+137,Can add django content type,35,add_djangocontenttype
+138,Can change django content type,35,change_djangocontenttype
+139,Can delete django content type,35,delete_djangocontenttype
+140,Can view django content type,35,view_djangocontenttype
+141,Can add django migrations,36,add_djangomigrations
+142,Can change django migrations,36,change_djangomigrations
+143,Can delete django migrations,36,delete_djangomigrations
+144,Can view django migrations,36,view_djangomigrations
+145,Can add django session,37,add_djangosession
+146,Can change django session,37,change_djangosession
+147,Can delete django session,37,delete_djangosession
+148,Can view django session,37,view_djangosession
+149,Can add experience level master,38,add_experiencelevelmaster
+150,Can change experience level master,38,change_experiencelevelmaster
+151,Can delete experience level master,38,delete_experiencelevelmaster
+152,Can view experience level master,38,view_experiencelevelmaster
+153,Can add flyway schema history,39,add_flywayschemahistory
+154,Can change flyway schema history,39,change_flywayschemahistory
+155,Can delete flyway schema history,39,delete_flywayschemahistory
+156,Can view flyway schema history,39,view_flywayschemahistory
+157,Can add gamification configuration,40,add_gamificationconfiguration
+158,Can change gamification configuration,40,change_gamificationconfiguration
+159,Can delete gamification configuration,40,delete_gamificationconfiguration
+160,Can view gamification configuration,40,view_gamificationconfiguration
+161,Can add gamification configuration client,41,add_gamificationconfigurationclient
+162,Can change gamification configuration client,41,change_gamificationconfigurationclient
+163,Can delete gamification configuration client,41,delete_gamificationconfigurationclient
+164,Can view gamification configuration client,41,view_gamificationconfigurationclient
+165,Can add gamification configuration subcontractor,42,add_gamificationconfigurationsubcontractor
+166,Can change gamification configuration subcontractor,42,change_gamificationconfigurationsubcontractor
+167,Can delete gamification configuration subcontractor,42,delete_gamificationconfigurationsubcontractor
+168,Can view gamification configuration subcontractor,42,view_gamificationconfigurationsubcontractor
+169,Can add gamification configuration worker,43,add_gamificationconfigurationworker
+170,Can change gamification configuration worker,43,change_gamificationconfigurationworker
+171,Can delete gamification configuration worker,43,delete_gamificationconfigurationworker
+172,Can view gamification configuration worker,43,view_gamificationconfigurationworker
+173,Can add hibernate sequence,44,add_hibernatesequence
+174,Can change hibernate sequence,44,change_hibernatesequence
+175,Can delete hibernate sequence,44,delete_hibernatesequence
+176,Can view hibernate sequence,44,view_hibernatesequence
+177,Can add ic job title master,45,add_icjobtitlemaster
+178,Can change ic job title master,45,change_icjobtitlemaster
+179,Can delete ic job title master,45,delete_icjobtitlemaster
+180,Can view ic job title master,45,view_icjobtitlemaster
+181,Can add industry master,46,add_industrymaster
+182,Can change industry master,46,change_industrymaster
+183,Can delete industry master,46,delete_industrymaster
+184,Can view industry master,46,view_industrymaster
+185,Can add invoice,47,add_invoice
+186,Can change invoice,47,change_invoice
+187,Can delete invoice,47,delete_invoice
+188,Can view invoice,47,view_invoice
+189,Can add job bid certificate,48,add_jobbidcertificate
+190,Can change job bid certificate,48,change_jobbidcertificate
+191,Can delete job bid certificate,48,delete_jobbidcertificate
+192,Can view job bid certificate,48,view_jobbidcertificate
+193,Can add job bid detail,49,add_jobbiddetail
+194,Can change job bid detail,49,change_jobbiddetail
+195,Can delete job bid detail,49,delete_jobbiddetail
+196,Can view job bid detail,49,view_jobbiddetail
+197,Can add job bid screening question,50,add_jobbidscreeningquestion
+198,Can change job bid screening question,50,change_jobbidscreeningquestion
+199,Can delete job bid screening question,50,delete_jobbidscreeningquestion
+200,Can view job bid screening question,50,view_jobbidscreeningquestion
+201,Can add job certificate,51,add_jobcertificate
+202,Can change job certificate,51,change_jobcertificate
+203,Can delete job certificate,51,delete_jobcertificate
+204,Can view job certificate,51,view_jobcertificate
+205,Can add job detail,52,add_jobdetail
+206,Can change job detail,52,change_jobdetail
+207,Can delete job detail,52,delete_jobdetail
+208,Can view job detail,52,view_jobdetail
+209,Can add job invitee,53,add_jobinvitee
+210,Can change job invitee,53,change_jobinvitee
+211,Can delete job invitee,53,delete_jobinvitee
+212,Can view job invitee,53,view_jobinvitee
+213,Can add job invitee configuration,54,add_jobinviteeconfiguration
+214,Can change job invitee configuration,54,change_jobinviteeconfiguration
+215,Can delete job invitee configuration,54,delete_jobinviteeconfiguration
+216,Can view job invitee configuration,54,view_jobinviteeconfiguration
+217,Can add job list configuration,55,add_joblistconfiguration
+218,Can change job list configuration,55,change_joblistconfiguration
+219,Can delete job list configuration,55,delete_joblistconfiguration
+220,Can view job list configuration,55,view_joblistconfiguration
+221,Can add job rate card,56,add_jobratecard
+222,Can change job rate card,56,change_jobratecard
+223,Can delete job rate card,56,delete_jobratecard
+224,Can view job rate card,56,view_jobratecard
+225,Can add job rate card configuration,57,add_jobratecardconfiguration
+226,Can change job rate card configuration,57,change_jobratecardconfiguration
+227,Can delete job rate card configuration,57,delete_jobratecardconfiguration
+228,Can view job rate card configuration,57,view_jobratecardconfiguration
+229,Can add job reimbursement,58,add_jobreimbursement
+230,Can change job reimbursement,58,change_jobreimbursement
+231,Can delete job reimbursement,58,delete_jobreimbursement
+232,Can view job reimbursement,58,view_jobreimbursement
+233,Can add job reimbursement attachment,59,add_jobreimbursementattachment
+234,Can change job reimbursement attachment,59,change_jobreimbursementattachment
+235,Can delete job reimbursement attachment,59,delete_jobreimbursementattachment
+236,Can view job reimbursement attachment,59,view_jobreimbursementattachment
+237,Can add job screening question,60,add_jobscreeningquestion
+238,Can change job screening question,60,change_jobscreeningquestion
+239,Can delete job screening question,60,delete_jobscreeningquestion
+240,Can view job screening question,60,view_jobscreeningquestion
+241,Can add job site attachment,61,add_jobsiteattachment
+242,Can change job site attachment,61,change_jobsiteattachment
+243,Can delete job site attachment,61,delete_jobsiteattachment
+244,Can view job site attachment,61,view_jobsiteattachment
+245,Can add jobsite bid detail,62,add_jobsitebiddetail
+246,Can change jobsite bid detail,62,change_jobsitebiddetail
+247,Can delete jobsite bid detail,62,delete_jobsitebiddetail
+248,Can view jobsite bid detail,62,view_jobsitebiddetail
+249,Can add jobsite detail,63,add_jobsitedetail
+250,Can change jobsite detail,63,change_jobsitedetail
+251,Can delete jobsite detail,63,delete_jobsitedetail
+252,Can view jobsite detail,63,view_jobsitedetail
+253,Can add jobsite reimbursement,64,add_jobsitereimbursement
+254,Can change jobsite reimbursement,64,change_jobsitereimbursement
+255,Can delete jobsite reimbursement,64,delete_jobsitereimbursement
+256,Can view jobsite reimbursement,64,view_jobsitereimbursement
+257,Can add jobsite reimbursement attachment,65,add_jobsitereimbursementattachment
+258,Can change jobsite reimbursement attachment,65,change_jobsitereimbursementattachment
+259,Can delete jobsite reimbursement attachment,65,delete_jobsitereimbursementattachment
+260,Can view jobsite reimbursement attachment,65,view_jobsitereimbursementattachment
+261,Can add job title master,66,add_jobtitlemaster
+262,Can change job title master,66,change_jobtitlemaster
+263,Can delete job title master,66,delete_jobtitlemaster
+264,Can view job title master,66,view_jobtitlemaster
+265,Can add leader board,67,add_leaderboard
+266,Can change leader board,67,change_leaderboard
+267,Can delete leader board,67,delete_leaderboard
+268,Can view leader board,67,view_leaderboard
+269,Can add line item,68,add_lineitem
+270,Can change line item,68,change_lineitem
+271,Can delete line item,68,delete_lineitem
+272,Can view line item,68,view_lineitem
+273,Can add line item bid detail,69,add_lineitembiddetail
+274,Can change line item bid detail,69,change_lineitembiddetail
+275,Can delete line item bid detail,69,delete_lineitembiddetail
+276,Can view line item bid detail,69,view_lineitembiddetail
+277,Can add line item template,70,add_lineitemtemplate
+278,Can change line item template,70,change_lineitemtemplate
+279,Can delete line item template,70,delete_lineitemtemplate
+280,Can view line item template,70,view_lineitemtemplate
+281,Can add login history,71,add_loginhistory
+282,Can change login history,71,change_loginhistory
+283,Can delete login history,71,delete_loginhistory
+284,Can view login history,71,view_loginhistory
+285,Can add menu master,72,add_menumaster
+286,Can change menu master,72,change_menumaster
+287,Can delete menu master,72,delete_menumaster
+288,Can view menu master,72,view_menumaster
+289,Can add msa content master,73,add_msacontentmaster
+290,Can change msa content master,73,change_msacontentmaster
+291,Can delete msa content master,73,delete_msacontentmaster
+292,Can view msa content master,73,view_msacontentmaster
+293,Can add notification,74,add_notification
+294,Can change notification,74,change_notification
+295,Can delete notification,74,delete_notification
+296,Can view notification,74,view_notification
+297,Can add number of employee master,75,add_numberofemployeemaster
+298,Can change number of employee master,75,change_numberofemployeemaster
+299,Can delete number of employee master,75,delete_numberofemployeemaster
+300,Can view number of employee master,75,view_numberofemployeemaster
+301,Can add payment milestone,76,add_paymentmilestone
+302,Can change payment milestone,76,change_paymentmilestone
+303,Can delete payment milestone,76,delete_paymentmilestone
+304,Can view payment milestone,76,view_paymentmilestone
+305,Can add payment milestone bid detail,77,add_paymentmilestonebiddetail
+306,Can change payment milestone bid detail,77,change_paymentmilestonebiddetail
+307,Can delete payment milestone bid detail,77,delete_paymentmilestonebiddetail
+308,Can view payment milestone bid detail,77,view_paymentmilestonebiddetail
+309,Can add payment rails batch,78,add_paymentrailsbatch
+310,Can change payment rails batch,78,change_paymentrailsbatch
+311,Can delete payment rails batch,78,delete_paymentrailsbatch
+312,Can view payment rails batch,78,view_paymentrailsbatch
+313,Can add po detail,79,add_podetail
+314,Can change po detail,79,change_podetail
+315,Can delete po detail,79,delete_podetail
+316,Can view po detail,79,view_podetail
+317,Can add project attachment,80,add_projectattachment
+318,Can change project attachment,80,change_projectattachment
+319,Can delete project attachment,80,delete_projectattachment
+320,Can view project attachment,80,view_projectattachment
+321,Can add project bid detail,81,add_projectbiddetail
+322,Can change project bid detail,81,change_projectbiddetail
+323,Can delete project bid detail,81,delete_projectbiddetail
+324,Can view project bid detail,81,view_projectbiddetail
+325,Can add project detail,82,add_projectdetail
+326,Can change project detail,82,change_projectdetail
+327,Can delete project detail,82,delete_projectdetail
+328,Can view project detail,82,view_projectdetail
+329,Can add project favourite,83,add_projectfavourite
+330,Can change project favourite,83,change_projectfavourite
+331,Can delete project favourite,83,delete_projectfavourite
+332,Can view project favourite,83,view_projectfavourite
+333,Can add project invitee,84,add_projectinvitee
+334,Can change project invitee,84,change_projectinvitee
+335,Can delete project invitee,84,delete_projectinvitee
+336,Can view project invitee,84,view_projectinvitee
+337,Can add project invitee configuration,85,add_projectinviteeconfiguration
+338,Can change project invitee configuration,85,change_projectinviteeconfiguration
+339,Can delete project invitee configuration,85,delete_projectinviteeconfiguration
+340,Can view project invitee configuration,85,view_projectinviteeconfiguration
+341,Can add project list configuration,86,add_projectlistconfiguration
+342,Can change project list configuration,86,change_projectlistconfiguration
+343,Can delete project list configuration,86,delete_projectlistconfiguration
+344,Can view project list configuration,86,view_projectlistconfiguration
+345,Can add question and answer,87,add_questionandanswer
+346,Can change question and answer,87,change_questionandanswer
+347,Can delete question and answer,87,delete_questionandanswer
+348,Can view question and answer,87,view_questionandanswer
+349,Can add question and answer attachment,88,add_questionandanswerattachment
+350,Can change question and answer attachment,88,change_questionandanswerattachment
+351,Can delete question and answer attachment,88,delete_questionandanswerattachment
+352,Can view question and answer attachment,88,view_questionandanswerattachment
+353,Can add rating and review,89,add_ratingandreview
+354,Can change rating and review,89,change_ratingandreview
+355,Can delete rating and review,89,delete_ratingandreview
+356,Can view rating and review,89,view_ratingandreview
+357,Can add region master,90,add_regionmaster
+358,Can change region master,90,change_regionmaster
+359,Can delete region master,90,delete_regionmaster
+360,Can view region master,90,view_regionmaster
+361,Can add service master,91,add_servicemaster
+362,Can change service master,91,change_servicemaster
+363,Can delete service master,91,delete_servicemaster
+364,Can view service master,91,view_servicemaster
+365,Can add state master,92,add_statemaster
+366,Can change state master,92,change_statemaster
+367,Can delete state master,92,delete_statemaster
+368,Can view state master,92,view_statemaster
+369,Can add subcontractor coi,93,add_subcontractorcoi
+370,Can change subcontractor coi,93,change_subcontractorcoi
+371,Can delete subcontractor coi,93,delete_subcontractorcoi
+372,Can view subcontractor coi,93,view_subcontractorcoi
+373,Can add subcontractor compliance,94,add_subcontractorcompliance
+374,Can change subcontractor compliance,94,change_subcontractorcompliance
+375,Can delete subcontractor compliance,94,delete_subcontractorcompliance
+376,Can view subcontractor compliance,94,view_subcontractorcompliance
+377,Can add subcontractor emr,95,add_subcontractoremr
+378,Can change subcontractor emr,95,change_subcontractoremr
+379,Can delete subcontractor emr,95,delete_subcontractoremr
+380,Can view subcontractor emr,95,view_subcontractoremr
+381,Can add subcontractor license,96,add_subcontractorlicense
+382,Can change subcontractor license,96,change_subcontractorlicense
+383,Can delete subcontractor license,96,delete_subcontractorlicense
+384,Can view subcontractor license,96,view_subcontractorlicense
+385,Can add subcontractor osha,97,add_subcontractorosha
+386,Can change subcontractor osha,97,change_subcontractorosha
+387,Can delete subcontractor osha,97,delete_subcontractorosha
+388,Can view subcontractor osha,97,view_subcontractorosha
+389,Can add subcontractor profile,98,add_subcontractorprofile
+390,Can change subcontractor profile,98,change_subcontractorprofile
+391,Can delete subcontractor profile,98,delete_subcontractorprofile
+392,Can view subcontractor profile,98,view_subcontractorprofile
+393,Can add subcontractor reference,99,add_subcontractorreference
+394,Can change subcontractor reference,99,change_subcontractorreference
+395,Can delete subcontractor reference,99,delete_subcontractorreference
+396,Can view subcontractor reference,99,view_subcontractorreference
+397,Can add subcontractor service,100,add_subcontractorservice
+398,Can change subcontractor service,100,change_subcontractorservice
+399,Can delete subcontractor service,100,delete_subcontractorservice
+400,Can view subcontractor service,100,view_subcontractorservice
+401,Can add supervisor profile,101,add_supervisorprofile
+402,Can change supervisor profile,101,change_supervisorprofile
+403,Can delete supervisor profile,101,delete_supervisorprofile
+404,Can view supervisor profile,101,view_supervisorprofile
+405,Can add time sheet,102,add_timesheet
+406,Can change time sheet,102,change_timesheet
+407,Can delete time sheet,102,delete_timesheet
+408,Can view time sheet,102,view_timesheet
+409,Can add time sheet reject reason,103,add_timesheetrejectreason
+410,Can change time sheet reject reason,103,change_timesheetrejectreason
+411,Can delete time sheet reject reason,103,delete_timesheetrejectreason
+412,Can view time sheet reject reason,103,view_timesheetrejectreason
+413,Can add unit of measure master,104,add_unitofmeasuremaster
+414,Can change unit of measure master,104,change_unitofmeasuremaster
+415,Can delete unit of measure master,104,delete_unitofmeasuremaster
+416,Can view unit of measure master,104,view_unitofmeasuremaster
+417,Can add user master,105,add_usermaster
+418,Can change user master,105,change_usermaster
+419,Can delete user master,105,delete_usermaster
+420,Can view user master,105,view_usermaster
+421,Can add user permission,106,add_userpermission
+422,Can change user permission,106,change_userpermission
+423,Can delete user permission,106,delete_userpermission
+424,Can view user permission,106,view_userpermission
+425,Can add user roles,107,add_userroles
+426,Can change user roles,107,change_userroles
+427,Can delete user roles,107,delete_userroles
+428,Can view user roles,107,view_userroles
+429,Can add worker attachment,108,add_workerattachment
+430,Can change worker attachment,108,change_workerattachment
+431,Can delete worker attachment,108,delete_workerattachment
+432,Can view worker attachment,108,view_workerattachment
+433,Can add worker certificate,109,add_workercertificate
+434,Can change worker certificate,109,change_workercertificate
+435,Can delete worker certificate,109,delete_workercertificate
+436,Can view worker certificate,109,view_workercertificate
+437,Can add worker education,110,add_workereducation
+438,Can change worker education,110,change_workereducation
+439,Can delete worker education,110,delete_workereducation
+440,Can view worker education,110,view_workereducation
+441,Can add worker experience,111,add_workerexperience
+442,Can change worker experience,111,change_workerexperience
+443,Can delete worker experience,111,delete_workerexperience
+444,Can view worker experience,111,view_workerexperience
+445,Can add worker profile,112,add_workerprofile
+446,Can change worker profile,112,change_workerprofile
+447,Can delete worker profile,112,delete_workerprofile
+448,Can view worker profile,112,view_workerprofile
+449,Can add worker reference,113,add_workerreference
+450,Can change worker reference,113,change_workerreference
+451,Can delete worker reference,113,delete_workerreference
+452,Can view worker reference,113,view_workerreference
+453,Can add worker service,114,add_workerservice
+454,Can change worker service,114,change_workerservice
+455,Can delete worker service,114,delete_workerservice
+456,Can view worker service,114,view_workerservice
+457,Can add experience level master,115,add_experiencelevelmaster
+458,Can change experience level master,115,change_experiencelevelmaster
+459,Can delete experience level master,115,delete_experiencelevelmaster
+460,Can view experience level master,115,view_experiencelevelmaster
+461,Can add job detail,116,add_jobdetail
+462,Can change job detail,116,change_jobdetail
+463,Can delete job detail,116,delete_jobdetail
+464,Can view job detail,116,view_jobdetail
+465,Can add job title master,117,add_jobtitlemaster
+466,Can change job title master,117,change_jobtitlemaster
+467,Can delete job title master,117,delete_jobtitlemaster
+468,Can view job title master,117,view_jobtitlemaster
+469,Can add user master,118,add_usermaster
+470,Can change user master,118,change_usermaster
+471,Can delete user master,118,delete_usermaster
+472,Can view user master,118,view_usermaster
+473,Can add worker attachment,119,add_workerattachment
+474,Can change worker attachment,119,change_workerattachment
+475,Can delete worker attachment,119,delete_workerattachment
+476,Can view worker attachment,119,view_workerattachment
+477,Can add experience level master,120,add_experiencelevelmaster
+478,Can change experience level master,120,change_experiencelevelmaster
+479,Can delete experience level master,120,delete_experiencelevelmaster
+480,Can view experience level master,120,view_experiencelevelmaster
+481,Can add job title master,121,add_jobtitlemaster
+482,Can change job title master,121,change_jobtitlemaster
+483,Can delete job title master,121,delete_jobtitlemaster
+484,Can view job title master,121,view_jobtitlemaster
+485,Can add user master,122,add_usermaster
+486,Can change user master,122,change_usermaster
+487,Can delete user master,122,delete_usermaster
+488,Can view user master,122,view_usermaster
+489,Can add worker attachment,123,add_workerattachment
+490,Can change worker attachment,123,change_workerattachment
+491,Can delete worker attachment,123,delete_workerattachment
+492,Can view worker attachment,123,view_workerattachment
+493,Can add experience level master,124,add_experiencelevelmaster
+494,Can change experience level master,124,change_experiencelevelmaster
+495,Can delete experience level master,124,delete_experiencelevelmaster
+496,Can view experience level master,124,view_experiencelevelmaster
+497,Can add job detail,125,add_jobdetail
+498,Can change job detail,125,change_jobdetail
+499,Can delete job detail,125,delete_jobdetail
+500,Can view job detail,125,view_jobdetail
+501,Can add job title master,126,add_jobtitlemaster
+502,Can change job title master,126,change_jobtitlemaster
+503,Can delete job title master,126,delete_jobtitlemaster
+504,Can view job title master,126,view_jobtitlemaster
+505,Can add user master,127,add_usermaster
+506,Can change user master,127,change_usermaster
+507,Can delete user master,127,delete_usermaster
+508,Can view user master,127,view_usermaster
+509,Can add worker attachment,128,add_workerattachment
+510,Can change worker attachment,128,change_workerattachment
+511,Can delete worker attachment,128,delete_workerattachment
+512,Can view worker attachment,128,view_workerattachment
+513,Can add job detail,129,add_jobdetail
+514,Can change job detail,129,change_jobdetail
+515,Can delete job detail,129,delete_jobdetail
+516,Can view job detail,129,view_jobdetail

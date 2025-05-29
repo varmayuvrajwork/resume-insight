@@ -1,0 +1,101 @@
+installed_rank,version,description,type,script,checksum,installed_by,installed_on,execution_time,success
+1,1,<< Flyway Baseline >>,BASELINE,<< Flyway Baseline >>,NULL,iconicworker,2021-06-15 05:05:21,0,1
+2,2,init,SQL,V2__init.sql,-713484064,iconicworker,2021-06-15 05:05:21,69,1
+3,3,city master 1,SQL,V3__city_master_1.sql,-1163505237,iconicworker,2021-06-15 05:05:22,349,1
+4,4,city master 2,SQL,V4__city_master_2.sql,855437874,iconicworker,2021-06-15 05:05:22,167,1
+5,5,city master 3,SQL,V5__city_master_3.sql,953860396,iconicworker,2021-06-15 05:05:22,156,1
+6,6,city master 4,SQL,V6__city_master_4.sql,-1331221058,iconicworker,2021-06-15 05:05:22,109,1
+7,7,empno master 5,SQL,V7__empno_master_5.sql,-1123664255,iconicworker,2021-06-15 05:05:23,15,1
+8,8,updatetablequeries 6,SQL,V8__updatetablequeries_6.sql,-1511931977,iconicworker,2021-06-15 05:05:23,25,1
+9,9,updatetablequeriesprofilelatlong 7,SQL,V9__updatetablequeriesprofilelatlong_7.sql,1585245003,iconicworker,2021-06-15 05:05:23,11,1
+10,10,initbankdetails,SQL,V10__initbankdetails.sql,367206626,iconicworker,2021-06-15 05:05:23,6,1
+11,11,updatesubcontractorprofileCompany 9,SQL,V11__updatesubcontractorprofileCompany_9.sql,-49142960,iconicworker,2021-06-15 05:05:23,5,1
+12,12,updateadminpassword 10,SQL,V12__updateadminpassword_10.sql,-75740419,iconicworker,2021-06-15 05:05:23,5,1
+13,13,insertdiversitycategory 11,SQL,V13__insertdiversitycategory_11.sql,-1715337556,iconicworker,2021-06-15 05:05:23,9,1
+14,14,updateTimesheetcols 13,SQL,V14__updateTimesheetcols_13.sql,475092180,iconicworker,2021-06-24 13:07:29,131,1
+15,15,UJobdescspecialqualificationcols 15,SQL,V15__UJobdescspecialqualificationcols_15.sql,-177856283,iconicworker,2021-06-24 13:07:30,214,1
+16,16,gamificationQueries 16,SQL,V16__gamificationQueries_16.sql,575157436,iconicworker,2021-09-09 11:29:49,18,1
+17,17,lineItem 17,SQL,V17__lineItem_17.sql,-150817770,iconicworker,2022-03-16 04:41:32,7906,1
+18,18,EntityValidationRelatedChanges,SQL,V18__EntityValidationRelatedChanges.sql,-1965812246,iconicworker,2023-04-17 11:16:23,2041,1
+19,19,UserMasterRelatedChanges,SQL,V19__UserMasterRelatedChanges.sql,-1085424119,iconicworker,2023-04-24 04:14:46,145,1
+20,20,CandidatePipelineCreate,SQL,V20__CandidatePipelineCreate.sql,974381830,iconicworker,2023-04-27 12:11:51,50,1
+21,21,WorkerAttachmentRelatedChanges,SQL,V21__WorkerAttachmentRelatedChanges.sql,-1406367129,iconicworker,2023-05-08 07:02:04,5257,1
+22,22,JobDetailRelatedChanges,SQL,V22__JobDetailRelatedChanges.sql,1075027822,iconicworker,2023-05-10 12:01:19,1696,1
+23,23,CreatTableRecruiterActiveJob,SQL,V23__CreatTableRecruiterActiveJob.sql,52520692,iconicworker,2023-05-11 14:20:10,1330,1
+24,24,WorkerAttachmentLocationRelatedChanges,SQL,V24__WorkerAttachmentLocationRelatedChanges.sql,1581063331,iconicworker,2023-05-11 14:20:19,5801,1
+25,25,WorkerProfileChanges,SQL,V25__WorkerProfileChanges.sql,1481514190,iconicworker,2023-05-18 08:38:34,5905,1
+26,26,CreatTableRecruiterWorker,SQL,V26__CreatTableRecruiterWorker.sql,1802845449,iconicworker,2023-05-18 08:52:44,1215,1
+27,27,CreateTableRecruiterSubmission,SQL,V27__CreateTableRecruiterSubmission.sql,-238133755,iconicworker,2023-05-25 07:15:17,53,1
+28,28,WorkerProfileRelatedChanges,SQL,V28__WorkerProfileRelatedChanges.sql,309435025,iconicworker,2023-06-08 05:36:43,1216,1
+29,29,CreateTableRecruiterProfile,SQL,V29__CreateTableRecruiterProfile.sql,-872737187,iconicworker,2023-06-20 12:05:59,1269,1
+30,30,CreateTableRecruiterServiceLocation,SQL,V30__CreateTableRecruiterServiceLocation.sql,1861603237,iconicworker,2023-06-20 12:06:04,1265,1
+31,31,CreateTableExternalRecruiterReferences,SQL,V31__CreateTableExternalRecruiterReferences.sql,-81649950,iconicworker,2023-06-20 12:06:08,1262,1
+32,32,CreateTableExternalRecruiterJobAccess,SQL,V32__CreateTableExternalRecruiterJobAccess.sql,1091763124,iconicworker,2023-06-30 04:57:02,1970,1
+33,33,CreateTablePlan,SQL,V33__CreateTablePlan.sql,1085594924,iconicworker,2023-07-10 12:30:04,3966,1
+34,34,CreateTablePlanFeature,SQL,V34__CreateTablePlanFeature.sql,-1861692496,iconicworker,2023-07-11 10:22:43,3615,1
+35,35,CreateTableSubscription,SQL,V35__CreateTableSubscription.sql,424371067,iconicworker,2023-07-11 10:22:47,1229,1
+36,36,CreateTableStripeInvoice,SQL,V36__CreateTableStripeInvoice.sql,745977525,iconicworker,2023-07-11 10:22:52,1222,1
+37,37,AlterTableUserMaster,SQL,V37__AlterTableUserMaster.sql,-1185306340,iconicworker,2023-07-11 10:22:56,1359,1
+38,38,CreateTableProjectWorkProgress,SQL,V38__CreateTableProjectWorkProgress.sql,599593720,iconicworker,2023-07-13 09:15:15,1256,1
+39,39,CreateTableProjectWorkProgressPhotos,SQL,V39__CreateTableProjectWorkProgressPhotos.sql,-1876572183,iconicworker,2023-07-13 09:15:20,1233,1
+40,40,CreateTableJobCandidatePool,SQL,V40__CreateTableJobCandidatePool.sql,-578882268,iconicworker,2023-07-17 12:09:21,1909,1
+41,41,CreateTableJobScheduleInterview,SQL,V41__CreateTableJobScheduleInterview.sql,-1573754205,iconicworker,2023-07-19 06:24:23,1419,1
+42,42,AlterTableJobBidDetail,SQL,V42__AlterTableJobBidDetail.sql,-898189758,iconicworker,2023-07-20 05:21:16,1381,1
+43,43,AlterTableJobDetail,SQL,V43__AlterTableJobDetail.sql,-1752222384,iconicworker,2023-07-24 08:23:05,1890,1
+44,44,AlterTableNotification,SQL,V44__AlterTableNotification.sql,150484464,iconicworker,2023-08-02 14:02:14,406,1
+45,45,CreateTablePlatformMargin,SQL,V45__CreateTablePlatformMargin.sql,-224045693,iconicworker,2023-08-09 06:08:54,1888,1
+46,46,AlterTableJobBidDetail,SQL,V46__AlterTableJobBidDetail.sql,-312541334,iconicworker,2023-08-10 06:22:27,1254,1
+47,47,AlterTableInvoice,SQL,V47__AlterTableInvoice.sql,1066662098,iconicworker,2023-08-10 11:40:57,1395,1
+48,48,AlterTableWorkerProfile,SQL,V48__AlterTableWorkerProfile.sql,-1110634697,iconicworker,2023-08-16 09:44:36,1299,1
+49,49,CreateTablePlatformDefaults,SQL,V49__CreateTablePlatformDefaults.sql,499002587,iconicworker,2023-08-16 13:27:05,1959,1
+50,50,AlterTableProjectDetail,SQL,V50__AlterTableProjectDetail.sql,-1053818008,iconicworker,2023-10-17 10:05:16,1569,1
+51,51,AlterTableJobSiteDetail,SQL,V51__AlterTableJobSiteDetail.sql,-1737927427,iconicworker,2023-10-17 10:05:20,1436,1
+52,52,AlterTableProjectWorkProgress,SQL,V52__AlterTableProjectWorkProgress.sql,393260413,iconicworker,2023-10-20 09:45:38,198,1
+53,53,AlterTableJobSiteBidDetail,SQL,V53__AlterTableJobSiteBidDetail.sql,1350477945,iconicworker,2023-10-20 09:45:38,99,1
+54,54,CreateTableJobWorkProgress,SQL,V54__CreateTableJobWorkProgress.sql,1522292085,iconicworker,2023-10-20 09:45:38,55,1
+55,55,CreateTableJobWorkProgressPhotos,SQL,V55__CreateTableJobWorkProgressPhotos.sql,-2036167880,iconicworker,2023-10-20 09:45:38,45,1
+56,56,AlterTableJobBidDetail,SQL,V56__AlterTableJobBidDetail.sql,-306742413,iconicworker,2023-10-20 09:45:39,64,1
+57,57,CreateViewJobDetailHiringStage,SQL,V57__CreateViewJobDetailHiringStage.sql,1335753684,iconicworker,2023-10-30 06:22:19,1269,1
+58,58,UpdateViewJobDetailHiringStage,SQL,V58__UpdateViewJobDetailHiringStage.sql,-254676809,iconicworker,2023-11-02 12:41:13,28,1
+59,59,UpdateJobReimbursement,SQL,V59__UpdateJobReimbursement.sql,-471545468,iconicworker,2023-12-14 05:59:11,144,1
+60,60,UpdateJobsiteReimbursement,SQL,V60__UpdateJobsiteReimbursement.sql,1386265192,iconicworker,2023-12-14 05:59:11,88,1
+61,61,AlterTableWorkerCertificate,SQL,V61__AlterTableWorkerCertificate.sql,1501843699,iconicworker,2023-12-14 10:08:09,49,1
+62,62,CreateTableJobFavourite,SQL,V62__CreateTableJobFavourite.sql,-2101828113,iconicworker,2023-12-18 05:35:49,78,1
+63,63,AlterTableForProfileChanges,SQL,V63__AlterTableForProfileChanges.sql,372536590,iconicworker,2023-12-18 11:40:26,4045,1
+64,64,AlterTableSubcontractorCOI,SQL,V64__AlterTableSubcontractorCOI.sql,-1364655488,iconicworker,2023-12-28 10:53:51,50,1
+65,65,AlterTableForRatingAndReview,SQL,V65__AlterTableForRatingAndReview.sql,-382809875,iconicworker,2023-12-28 10:53:51,109,1
+66,66,AlterTableQuestionAndAnswer,SQL,V66__AlterTableQuestionAndAnswer.sql,1968580637,iconicworker,2023-12-28 10:53:51,103,1
+67,67,CreateTableSubcontractorPortfolio,SQL,V67__CreateTableSubcontractorPortfolio.sql,2139612906,iconicworker,2023-12-28 10:53:51,40,1
+68,68,CreateTableSubcontractorPortfolioDocument,SQL,V68__CreateTableSubcontractorPortfolioDocument.sql,300108092,iconicworker,2023-12-28 10:53:51,49,1
+69,69,UpdateViewJobDetailHiringStage,SQL,V69__UpdateViewJobDetailHiringStage.sql,-156815876,iconicworker,2023-12-28 10:53:51,26,1
+70,70,UpdateViewJobDetailHiringStage1,SQL,V70__UpdateViewJobDetailHiringStage1.sql,-15983212,iconicworker,2024-02-15 11:44:55,53,1
+71,71,UpdateProjectDetailTable,SQL,V71__UpdateProjectDetailTable.sql,-970068772,iconicworker,2024-02-22 09:08:19,169,1
+72,72,JobDetailTableColumnChange,SQL,V72__JobDetailTableColumnChange.sql,-1355775091,iconicworker,2024-02-23 12:16:20,96,1
+73,73,JobDetailViewForExRecruiter,SQL,V73__JobDetailViewForExRecruiter.sql,-423608984,iconicworker,2024-02-23 12:16:20,20,1
+74,74,ChangeColumnSizeForJobSiteDetail,SQL,V74__ChangeColumnSizeForJobSiteDetail.sql,688237793,iconicworker,2024-02-27 14:08:44,58,1
+75,75,AlterTableTimeSheet,SQL,V75__AlterTableTimeSheet.sql,1039046484,iconicworker,2024-03-01 08:51:41,41,1
+76,76,UpdateJobDetailViewForExRecruiter,SQL,V76__UpdateJobDetailViewForExRecruiter.sql,27911682,iconicworker,2024-03-13 07:17:20,25,1
+77,77,UpdateProjectBidDetailTable,SQL,V77__UpdateProjectBidDetailTable.sql,1619640141,iconicworker,2024-03-19 12:17:13,173,1
+78,78,UpdateWorkerReferenceTable,SQL,V78__UpdateWorkerReferenceTable.sql,-782416768,iconicworker,2024-06-26 09:21:56,155,1
+79,79,AlterTablesForCountryCode,SQL,V79__AlterTablesForCountryCode.sql,1150598553,iconicworker,2024-07-01 07:17:24,997,1
+80,80,CreateCountryCodeTable,SQL,V80__CreateCountryCodeTable.sql,691548197,iconicworker,2024-07-01 08:20:56,1973,1
+81,81,AlterTablesForISOCode,SQL,V81__AlterTablesForISOCode.sql,129228023,iconicworker,2024-07-05 05:02:34,5598,1
+82,82,AlterTableForChatMessage,SQL,V82__AlterTableForChatMessage.sql,-2056785495,iconicworker,2024-07-08 10:19:02,263,1
+83,83,CreateTableForEvents,SQL,V83__CreateTableForEvents.sql,-1028657906,iconicworker,2024-08-12 09:41:29,1907,1
+84,84,CreateTableForNotificationPreferences,SQL,V84__CreateTableForNotificationPreferences.sql,-1253429301,iconicworker,2024-08-12 09:41:33,1317,1
+85,85,AlterTableUserMaster,SQL,V85__AlterTableUserMaster.sql,-1588376506,iconicworker,2024-08-12 13:06:26,471,1
+86,86,UpdateEventMasterTable,SQL,V86__UpdateEventMasterTable.sql,915326743,iconicworker,2024-08-14 05:57:55,4559,1
+87,87,AlterEventMasterTable,SQL,V87__AlterEventMasterTable.sql,1319224850,iconicworker,2024-08-14 13:20:23,3950,1
+88,88,UpdateEvents,SQL,V88__UpdateEvents.sql,-242173018,iconicworker,2024-08-20 09:26:32,28,1
+89,89,UpdateEventMaster,SQL,V89__UpdateEventMaster.sql,1131838962,iconicworker,2024-08-21 06:35:23,24,1
+90,90,UpdateEvents,SQL,V90__UpdateEvents.sql,-795871716,iconicworker,2024-08-22 10:11:15,1854,1
+91,91,UpdateEvents 2,SQL,V91__UpdateEvents_2.sql,1295389151,iconicworker,2024-08-22 13:19:54,2463,1
+92,92,UpdateEventMasterForDefaultNotification,SQL,V92__UpdateEventMasterForDefaultNotification.sql,-1099402868,iconicworker,2024-08-23 12:36:16,23,1
+93,93,UpdateEventDetails,SQL,V93__UpdateEventDetails.sql,-1111782704,iconicworker,2024-08-27 08:52:45,47,1
+94,94,UpdateEvents 3,SQL,V94__UpdateEvents_3.sql,-1204584356,iconicworker,2024-08-28 06:25:18,17,1
+95,95,AlterNotificationPreferencesTable,SQL,V95__AlterNotificationPreferencesTable.sql,97717934,iconicworker,2024-08-28 13:56:15,176,1
+96,96,AlterUserMasterTable,SQL,V96__AlterUserMasterTable.sql,1443044903,iconicworker,2025-04-09 06:46:49,7855,1
+97,97,AlterSubcontractorProfileTable,SQL,V97__AlterSubcontractorProfileTable.sql,183276176,iconicworker,2025-04-09 06:46:50,766,1
+98,98,AlterWorkerProfileTable,SQL,V98__AlterWorkerProfileTable.sql,-1840788351,iconicworker,2025-04-09 06:46:59,8875,1
+99,99,AlterSubcontractorProfileTable,SQL,V99__AlterSubcontractorProfileTable.sql,1654068357,iconicworker,2025-04-11 06:47:07,304,1
+100,100,AlterWorkerProfileTable,SQL,V100__AlterWorkerProfileTable.sql,918823489,iconicworker,2025-04-11 06:47:14,6756,1

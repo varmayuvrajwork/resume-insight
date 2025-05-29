@@ -1,0 +1,147 @@
+id,created_by,created_date,updated_by,updated_date,amount,close_out_status,line_item_id,line_item_name,quantity,unit,closeout_request_id
+019ed3d0-71b6-48cf-a918-4b29fea7d0b0,NULL,NULL,NULL,NULL,77,_binary '',6f9c4697-5d6a-4942-a0d5-13b8b5b942a5,li3,2,Hourly,c47fa99c-b26e-40bb-a66b-4253c3bc6ab6
+02c4d9e7-e933-426b-8c5e-55108cad2eba,NULL,NULL,NULL,NULL,8500,_binary '',e3b65ef8-1ed7-4200-b623-71eaaad50f50,Wiring & Electrical Setup	,2,Each,7613e2e6-a9c2-4e5d-ad03-3727140777f3
+03e2a5dc-db25-4bb4-adb4-d6bc2f1ce371,NULL,NULL,NULL,NULL,150,_binary '',881b6964-5493-4a13-9f66-eb0216e345ab,"Detailed Invoice for Excavation Services and Soil Compaction, including Equipment Rental and Labor C",2,LF,abad92ca-5699-4051-8017-e4f902c8f6bf
+092feb04-35a9-40b6-8206-1f671f60adb2,NULL,NULL,NULL,NULL,1111,_binary '',fb63e181-b461-42e3-83ce-44926c7e16bd,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",111,Each,2af7b38d-3ce2-4e7a-8843-9fb534ba63fd
+0ad83dd9-c07b-4cde-817a-12948d9988eb,NULL,NULL,NULL,NULL,200,_binary '',d9da58f6-a019-4806-a69a-69687081d8ee,Test Worker,12,Foot,b38103a4-125f-4361-8440-ab5a4e000477
+0f77fc7f-bed5-4458-8ca6-e11a70a2417b,NULL,NULL,NULL,NULL,101,_binary '',ee0f16be-5338-46e7-b7c4-769af18df8d0,li3,10,LF,f5d60726-4efe-46fc-973c-8ffec1031a96
+1137fd34-c1a4-4e34-bd3d-15cb19383ec1,NULL,NULL,NULL,NULL,300,_binary '',f89f6fe2-f7a5-420c-b50b-8d3ffce7d04e,li3,2,LF,b1f9540a-4492-4da5-89d9-9cf20107e701
+11820da0-9b97-4c25-92bd-452fda78f572,NULL,NULL,NULL,NULL,0,_binary '',5e9d7550-e821-4b59-8909-b4f877e3db9e,PRP LI2,222,Foot,457306a5-95ee-4cba-a736-f89c154b59e6
+137782f1-ca60-426d-b09b-1f80cd1335d9,NULL,NULL,NULL,NULL,150000,_binary '',a97938ff-299f-42d3-89bf-464a71f56031,Mounting Structures	,5001,1,7218eb1d-9348-4f48-9e34-efd75a4fb637
+149b8afb-4fd5-448a-97b6-7e3ea35385e3,NULL,NULL,NULL,NULL,111,_binary '',3687bc53-6ead-491a-81a4-f8275b3cb550,prp LI1,111,Each,59c2d980-0110-4ff5-af67-3515411fba54
+16d7813c-46bd-47ba-8aee-e3c6cb1abc65,NULL,NULL,NULL,NULL,1000,_binary '',4ceb05d5-87cb-4d78-aa8e-b1e7100d29b6,PRP TEST2 01-03-2024,2424,Foot,f3cb58d6-33f0-4cfc-97c3-73c8842a0578
+1ac01989-6bca-49d4-aad8-38c460c92a0c,NULL,NULL,NULL,NULL,888,_binary '',44ff3eba-b652-4c41-afed-fe1b7258209f,Dam model,4,Foot,c67e60db-6283-4877-a93e-9ce65b2d536e
+1ca00068-fcd1-4926-956f-300206147dab,NULL,NULL,NULL,NULL,500000,_binary '',3a30357a-cf91-4753-9926-87812f8c75b9,Battery Storage (2MWh)	,6,1,0a0918d8-3acb-4f99-83d7-b38594f823c2
+1d26ef10-7bf8-4b9b-af5f-2cd1c9ff8343,NULL,NULL,NULL,NULL,265,_binary '',3ff2112d-4b79-40ea-b990-28488dd65f31,test line iteam,5456,Foot,e54fffb8-cc83-44e9-8234-f130116bf4bd
+1faa4461-4a7e-4e5a-98b7-1848dbe651be,NULL,NULL,NULL,NULL,165,_binary '',8ec3e8fd-9e6d-41c1-a209-f0cc4e141409,test,25,Foot,1c2de4ba-be96-4163-a2bd-1e72e032fb8d
+20366555-780b-466b-a5e7-3b4dd68e7e65,NULL,NULL,NULL,NULL,96,_binary '',9c3ced40-84fa-4c5b-a405-2a27f874984d,Line item 1,15,Hourly,58f771dc-daee-41e7-a557-2136bc3fb0d1
+20e299a0-7800-48f3-84a1-1e85783a20c8,NULL,NULL,NULL,NULL,200000,_binary '',54ec8c02-4639-4572-9285-76aa2adb5f08,String Inverters	,48,Each,e5bc2e95-8ac5-4bba-80a4-5ef34f8917fe
+21081685-1b26-4b02-a6dc-44a316c25472,NULL,NULL,NULL,NULL,156,_binary '',4aae3b0e-841f-46cc-b149-1db4326cbbf0,PRP TEST 01-03-2024,2525,Hourly,b47b1e11-2c25-4a8a-a3ef-545756962cfb
+2122cb92-6543-4126-b658-303b7c7f211c,NULL,NULL,NULL,NULL,111,_binary '',7d069773-2d9a-45c4-8356-eaaf79a9f78f,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",111,Each,440dd126-b3e0-444d-a86d-8335b3f33c1c
+21617074-ff7f-4cdb-a102-c4a20c2d19e7,NULL,NULL,NULL,NULL,15,_binary '',af1fe4c0-9d45-473d-9b23-afb677cc580e,PRP LI2,10,Hourly,16710232-f152-4775-8317-4e9d3f3b5eba
+23f165fc-0229-4a25-8a6d-1f36d946774a,NULL,NULL,NULL,NULL,5,_binary '',c10a9855-41db-431c-b76c-08940eadc070,Foundation Work Foundation Work Foundation Work Foundation Work Foundation Work Foundation Work,2,LF,daaa3e15-aa67-4f28-9b4a-818bf9be1dd5
+26a88564-c2bf-46c5-81fb-296aef400f0e,NULL,NULL,NULL,NULL,777,_binary '',db3a4ea2-395b-4785-ae92-0b5d76f0ceb6,Loremline,7,Hourly,df9784b2-c854-4a0c-b531-c29c735f8f92
+29640fdf-eb13-4f65-9a73-cdcef57e2fee,NULL,NULL,NULL,NULL,150000,_binary '',f14dd91f-4f12-47be-b3f9-66774c8e7c7d,Inverter (250kW)	,11,Each,208eff4c-340a-48b1-a76e-dca3ab428eec
+2d1dcb6b-8cca-4645-801f-d12acb1ad464,NULL,NULL,NULL,NULL,230,_binary '',0e92b9b9-1c08-41b5-a0fd-351b7b9d78ab,Nun project JS1 LI2,12,1,4d2cf87b-755f-44fe-932a-947cb965ba3f
+2e12745e-364b-4087-b93a-be1ba2b1f621,NULL,NULL,NULL,NULL,11,_binary '',d1229be4-feff-4756-a945-f2af3ea79909,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",11,Each,95421a2c-2bb5-4ba2-862c-3da05b7682dc
+2e912325-74dc-465c-8035-bc3a8a32fd04,NULL,NULL,NULL,NULL,15,_binary '',af58b548-5a47-49db-9f47-433ac6ca41b0,li3,120,Hourly,67127a28-19ba-4368-9395-329bdfd10d35
+35f61e1f-b0aa-412d-85f8-7291ef4f6037,NULL,NULL,NULL,NULL,0,_binary '',3653ed1b-850b-41b2-99d2-adc3a6a22d1a,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",11,Each,46ac3e6d-40d4-4450-a029-21bbcdcffefa
+372e14df-4aaf-422f-a6fe-e9ed155c3dda,NULL,NULL,NULL,NULL,0,_binary '',08c86f65-aa4a-42ba-ad0e-57f707fac0c8,li3,2,LF,eae58309-21c1-4e79-8357-5c2e30ef5a51
+383cff5d-b88c-45fd-8542-f062f880713b,NULL,NULL,NULL,NULL,1111,_binary '',1a7b4a3d-226e-47ce-8147-ad3dc57fbac6,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",111,Each,0b6c1ef6-fdca-4e0a-bef9-575b90721cb0
+3897a252-0c41-4035-9f75-16c0030e0751,NULL,NULL,NULL,NULL,51,_binary '',f9937d4d-383b-48fc-bddd-ba0f69a7eb79,li3,200,LF,edfb06af-67b3-4301-8549-430f3c22a80c
+39cc420b-d3cf-42f9-a5fc-797d837db5b1,NULL,NULL,NULL,NULL,333,_binary '',96e99340-6540-435c-9c0f-209e94d1fb33,li3,2,LF,53b1b6e4-2ed9-4483-915c-86ef9e923bb9
+3a2b0dc8-7e51-4e86-9654-84207839aa55,NULL,NULL,NULL,NULL,777,_binary '',b8c56301-ccff-4c80-bab1-977f89d2f46d,Loremline,7,Hourly,42a1393f-cc29-4544-a10c-ff4ffdf9735f
+3a41636b-500d-4e1a-b115-35b06ed8a456,NULL,NULL,NULL,NULL,0,_binary '',57afec74-17ff-4551-9740-11bea66bb7b9,li3,65523526,LF,727404e2-451c-4dac-92d6-bd0bb7fc7337
+3a7da719-2185-4b69-91fa-21649142cb10,NULL,NULL,NULL,NULL,0,_binary '',f7efdc92-684f-48f0-bbda-cf770bf300f7,li3,2,LF,f7c8d22f-69c5-49cb-9ad1-e4e6f25c8a2e
+3b03e0b5-9bb1-45a5-b9b3-91815b02b4cf,NULL,NULL,NULL,NULL,0,_binary '',67437a28-cfac-435e-9f1b-ee469d045fd0,li3,2,LF,7f4e2bf2-cace-43bc-8c43-bf72b21e3523
+3d730684-7349-4c8e-8d10-e6b8cc306e5d,NULL,NULL,NULL,NULL,96,_binary '',83e394d9-7344-47fe-854a-34e8a8c2bd5c,Line item 1,11,Hourly,93a9e90f-b2f0-4aba-af73-2f2162217c2a
+3f941f4a-70f2-4a44-9561-3e200e394d3c,NULL,NULL,NULL,NULL,65,_binary '',26654ecd-1830-4893-8575-e0e1a1a65e16,WindPower,45,Foot,0cc3fc36-438d-4a37-863a-51390544a6dc
+402ad7be-c9d7-4fe6-9520-15782dd9f3b6,NULL,NULL,NULL,NULL,1000,_binary '',5e29ff1f-fefe-4dda-8c70-2b05a62ecc9e,PRP TEST2 01-03-2024,2424,Foot,0a1b6ab7-5ba9-4d79-9d3a-670b660a59ca
+407efe21-aaad-44a7-86aa-2abfbfbd9e31,NULL,NULL,NULL,NULL,5555,_binary '',39612b75-4d69-44d7-b730-efc2ccafe4af,li3,52142,LF,f5813bab-f3c6-4984-913b-28bb71a23dda
+44b7c342-bba3-460a-b042-2309bad071af,NULL,NULL,NULL,NULL,0,_binary '',eb48fa96-10a8-4cd2-8f40-f10224d707ac,li3,2,LF,d28ce3b2-9e8a-4f6e-8150-416c30f84b05
+48b7895b-2990-4c47-b1cd-3513441f6cdb,NULL,NULL,NULL,NULL,25000,_binary '',494f842f-4ecd-449b-b7d7-ef929e2d9ec4,AC Distribution Panels	,6,Each,1ce3fa0d-60a4-4108-a88c-d33e0f8c4c25
+48fedd0e-040c-430d-b7f9-75235b4259fc,NULL,NULL,NULL,NULL,1000,_binary '',c11cf4c6-1fe1-4add-95c2-246090b23689,li1,786,1,d7da9de2-d062-40a8-8615-00cf253a803b
+49c0b9f6-81c4-485d-b63e-a637e50a13df,NULL,NULL,NULL,NULL,777,_binary '',fbc7da9f-704d-4446-80a9-91371f682b5b,Loremline,7,Hourly,d9c5f191-2f2c-4608-84b9-fed1fe3d7302
+4a2a1002-a703-4ab3-8079-269a7a3cc03e,NULL,NULL,NULL,NULL,111,_binary '',b7282387-4433-4986-bcd5-98f9336ade0f,prp LI1,1,Each,43200725-f9a9-4a02-9e1d-e4a2591e3270
+4a47b226-ca54-4723-9e45-d7facd0e4491,NULL,NULL,NULL,NULL,1000,_binary '',96106c9c-5fd9-477d-ab28-444e8f9a14f4,Panel Work,1,-,d471c204-01f6-427c-a0b3-b6ac018160ef
+4bd4a7a6-0a91-471c-b585-55ad674ddf8d,NULL,NULL,NULL,NULL,1250000,_binary '',5d8d6940-fd2d-430a-afe8-2e21f2b7c798,PV Solar Modules	,4500,Each,a748f149-efe3-49ab-95dd-79ecb5328a31
+4c723a14-0478-4d9a-bf91-da6c855e45f4,NULL,NULL,NULL,NULL,300000,_binary '',0433949d-ca4c-4f03-adaf-4ec796756818,Solar Panel (500W Bifacial)	,500,Each,40007b89-1a40-4bfe-88d5-64b7319fd314
+4d55f5b9-b273-4b87-b678-56a3e7684f7c,NULL,NULL,NULL,NULL,99,_binary '',214f3d48-cbbf-46b6-979b-7138d6cc41e0,Line item 2,21,Each,27dfb1d8-1aa5-42cf-bf9f-7a322a6942c2
+4d7796af-3aff-4cda-9cb4-f7d29590a496,NULL,NULL,NULL,NULL,777,_binary '',b27ee206-c3d2-4daf-9c5b-c37f556f1b17,Loremline,7,Hourly,f12e07d2-21c7-4c30-8234-3e48984827d0
+4e33347a-33cb-45c0-8645-cec5e11c473b,NULL,NULL,NULL,NULL,120,_binary '',1ea5b7c5-70d7-4e5a-b03d-9bb4c7671ebf,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",11111111,Each,72fdc365-2c16-406b-84ad-b632329d3cd8
+4e3d341a-7b41-48a8-889f-c838d1abb7b1,NULL,NULL,NULL,NULL,111,_binary '',a8053801-e4ba-4d03-9681-701a3b02f9e4,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",111,Each,76a8a593-bd25-4689-a050-3125b528074c
+5401d574-9242-4ae1-955f-de3fcd681eb8,NULL,NULL,NULL,NULL,111,_binary '',ccc523f4-a947-45ca-8514-a91d63f3ad36,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",111,Each,7dc7e01e-93bf-4460-949d-5e41c9c3cb72
+54ef0764-0576-4008-85d1-b58d952af605,NULL,NULL,NULL,NULL,2.5,_binary '',a93efd01-06a2-4d11-a155-62550b3bf6f6,Electrical Wiring & Conduit	,450,Foot,36127906-92aa-45bc-b9d5-98786930555d
+5623bf47-fb38-4d29-874e-4d3340b05d8a,NULL,NULL,NULL,NULL,120000,_binary '',4bc8a7a1-ab3c-4efa-91c8-653a77818c1e,Tracking System	,160,Each,8e953d77-561c-457c-a4df-d4b7c19f8636
+5627b69b-bdd1-47cc-bb8c-f4ca8222ec09,NULL,NULL,NULL,NULL,111111,_binary '',d3a5d19d-fee8-4c7d-8328-196f69bd76ef,111,140,Hourly,579a43e5-d62d-4bd6-9147-2877aab687c0
+569c3173-8818-4449-bded-bf89faa772a0,NULL,NULL,NULL,NULL,777,_binary '',b430182b-c863-4300-92a5-b376abb7555a,Loremline,7,Hourly,bbc347f4-1265-43f0-b9fd-a678073182ad
+58317221-ebd0-4f79-bd83-cbaa6758148e,NULL,NULL,NULL,NULL,0,_binary '',c23197e6-dcf1-4ef2-aead-e811aa04a72b,project 2 jobsite2 lineitem 1,6,1,d998510d-72dd-4a33-a939-c845c44e19e6
+59064810-0646-46e0-a71b-7cacf7101c5c,NULL,NULL,NULL,NULL,1200,_binary '',fcd3b3fa-8dd9-40c3-adaf-7c84241bd204,Inverter (10kW)	,6,1,1098e7c2-f7e3-4b04-a90b-fb8fb6895887
+59aac15d-943b-440c-a598-bf276a2dd2e9,NULL,NULL,NULL,NULL,156,_binary '',c19a7b95-f82d-4b44-aa27-2675a80957e9,PRP LI2,10,Hourly,870f4771-fd3b-4d45-b907-07a8e711e9aa
+5bf43e5c-0934-4069-b379-c3624c287e5c,NULL,NULL,NULL,NULL,0,_binary '',89d14b0f-c7c5-4795-916f-3e61089b8c41,li3,2,LF,8f895ee7-c374-4cbe-b6d6-0b9de67ae77b
+5c46c425-1f06-4a82-acbc-a29fb6713618,NULL,NULL,NULL,NULL,31,_binary '',68d961df-b7ee-4a59-8dab-e2085731bd62,li1,91,LF,96a4cf10-4c40-4af6-b1f7-2efd608ba827
+5f9d2643-5319-4e1e-9f0d-00e482226699,NULL,NULL,NULL,NULL,0,_binary '',c10c83e7-5c1c-45b9-a0cb-1d4550896675,li3,2,LF,1b2d3a2d-0f7e-4110-a1ad-c997cbc05693
+63a890b9-4d18-4bce-b4e5-2b96d52235da,NULL,NULL,NULL,NULL,10,_binary '',4db9344e-ab62-4473-9626-5572f0306e5c,li3,1,1,e53e625d-b582-44c5-b44a-3bc61f854bff
+63acf4f0-89ec-4563-aa93-c22ba4b755db,NULL,NULL,NULL,NULL,777,_binary '',01523f0b-35a3-4d54-a55f-bd8673e3e49d,Loremline,7,Hourly,20ea3bb1-5f44-4d8d-b938-0f40a80139f8
+65da4d3d-0041-40f6-a1f4-164a1d254ad8,NULL,NULL,NULL,NULL,150,_binary '',bcf2c703-0ea0-4cfe-9a6d-a15af1788e6f,"Detailed Invoice for Excavation Services and Soil Compaction, including Equipment Rental and Labor C",2,LF,78768daa-a902-4b4a-8044-7747c4b91c72
+6ce0f22b-4685-421d-ac76-04bd53ca7c2c,NULL,NULL,NULL,NULL,10,_binary '',3729d3ba-e85b-4332-bc9d-efa4122b5aef,Nun project JS1 LI1,2454,-,c5bcfbc8-257f-44fd-bf33-7a95207816eb
+703e2d58-5b78-44bd-b899-024e3262bc75,NULL,NULL,NULL,NULL,777,_binary '',eecb82d2-1a89-4339-b6c8-80fdddccdb23,Loremline,7,Hourly,a1167d6e-1f9b-4350-b131-422740b389cc
+72335cd4-2f91-4ec7-b9dd-6d519ace0987,NULL,NULL,NULL,NULL,1,_binary '',329769c7-337f-4ff7-aab6-464f4c45bc24,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",111,Each,0867aeb3-b1dd-4d94-9b36-c4e232a732b4
+731a2b02-76dd-471a-a6b4-4d5b56846961,NULL,NULL,NULL,NULL,0,_binary '',c4344baf-d498-44ff-aaa4-313affffcf75,Nun Test Jobsite lineitem 1,2,1,bb8281bd-fb94-4e05-b07a-aa44f12c57b0
+783517cb-bebc-4f5d-9a30-d50b95fef72b,NULL,NULL,NULL,NULL,0,_binary '',93ccc3ed-9871-481a-8519-920a2e9e8edd,Loremline,7,Hourly,16710f7a-fba4-44a2-bb61-c51eb8526132
+786273a4-0928-4010-9924-e45fc1710aa4,NULL,NULL,NULL,NULL,0,_binary '',deb1c05a-1e95-435b-a92e-c4bbb49b9cd8,li3,2,LF,e03b9b71-8f38-4c40-9f37-72ea16360b46
+7cb7e74f-c897-4f08-b13f-a3122abe5938,NULL,NULL,NULL,NULL,50000,_binary '',d13cfb02-0763-4d3a-84eb-34698f91a815,DC Cabling	,1000,Each,8eb523b9-3dfc-4124-b53e-62c384b60fd8
+7dc4f8ce-c903-47f2-a870-8ded619a6d1f,NULL,NULL,NULL,NULL,1000,_binary '',a3cb9d5d-f7be-4319-a97e-10fb781dd70d,PRP TEST2 01-03-2024,2424,Foot,0a4ec53b-ec00-443c-9147-bda955869a29
+7ef43cb7-9c8d-4f78-b913-b37de520cfb5,NULL,NULL,NULL,NULL,111,_binary '',60a37b73-bda2-4a2e-9984-82eee87054bb,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",111,Each,0a119654-5b8e-46ab-9bdf-c000025f248d
+81d34a13-a3ab-4686-9d1c-ee8979e68503,NULL,NULL,NULL,NULL,11,_binary '',fde99cad-3c72-4cfa-9359-875cb4ec7cda,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",11,Each,973d84bd-3d6e-4982-86f9-90fb0ef4eb26
+81fdcbe6-986a-4324-8a28-25c67aadda31,NULL,NULL,NULL,NULL,1800,_binary '',584bca0a-46fb-4f26-81aa-59f97219504d,Battery Storage (10kWh)	,5,1,43bde73f-8dbe-4ade-a075-c89c0a7f8679
+82ab71be-668f-431d-acd2-8e58463143fc,NULL,NULL,NULL,NULL,545,_binary '',d4b4dad5-9aad-49ce-b970-61a990c4d450,li3,2,LF,094a6f81-bb1a-4ccf-b879-8e138e3ce791
+8712a007-30e5-4b25-bc12-7b94b32bbd88,NULL,NULL,NULL,NULL,1000,_binary '',52db74dc-d237-46b5-987c-fb5392696f19,Building1LI2,100,Hourly,2781eef2-5a8d-41cc-b5b3-ea62071f7e8a
+881ccc73-dbaa-49d0-8492-8113c6d3b3e2,NULL,NULL,NULL,NULL,96,_binary '',c0bd367c-db40-4d8b-b3ad-1762f9e9fe14,Line item 1,11,Hourly,788e6c5c-36d5-41fd-96fc-e2f28714d41e
+8a8fedee-2e79-44ed-819a-8f60c4b6edf8,NULL,NULL,NULL,NULL,160000,_binary '',4cc3de4c-7484-46d5-80e5-506066d105ab,Transformer (500kVA)	,9,Each,46c393a6-ae2e-45dc-8a45-acf16ed62a32
+8b3ed392-a23b-4574-9ac3-0d029d57c40f,NULL,NULL,NULL,NULL,225000,_binary '',789ae1e3-9b2a-4694-a66a-2ea02926444e,Solar Panel (450W Mono)	,450,Each,581ecfaa-15c4-48d0-9135-61be8b38160e
+8c0042f5-11cf-495a-be95-2c1521a8d721,NULL,NULL,NULL,NULL,60,_binary '',35a7c052-b8da-4be5-bdab-d00d99874289,l3,23,LF,b38103a4-125f-4361-8440-ab5a4e000477
+8dd56627-312f-4571-8d56-f18b2f9a849d,NULL,NULL,NULL,NULL,11,_binary '',4ff3a960-85fc-48a5-bfd1-48c769b816b2,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",1,Each,cba10155-884c-4d18-af1b-a0e468bdf0ed
+8e57dc57-2f7d-4792-beaf-213297335fad,NULL,NULL,NULL,NULL,150,_binary '',bbf60b25-da0e-4e72-8b55-66db69246af7,li3,2,LF,9fd83800-8014-4117-b6bc-a6eaf7a7cdc4
+8f336cdc-a025-4379-a8ff-b4b9f56f1050,NULL,NULL,NULL,NULL,71,_binary '',353823eb-f5f6-4e2e-a337-9a96903d8efe,li3,71,LF,96a4cf10-4c40-4af6-b1f7-2efd608ba827
+90461bc8-63f3-4ae4-b8a0-e5c89c148802,NULL,NULL,NULL,NULL,1111,_binary '',15084087-9c12-405c-8777-c1734e899cf2,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",111,Each,2d94da41-5a35-453c-bb06-486898aa291f
+904b2598-d7f9-4f25-87d6-ebe377611613,NULL,NULL,NULL,NULL,0,_binary '',97f5df47-90fa-4d7a-b5f8-48133535effd,li3,2,LF,86a46940-ea49-435e-ad9d-8d352e7d8ec0
+9281796a-b6c5-402a-9c7f-d1273362136a,NULL,NULL,NULL,NULL,40,_binary '',2e3c5250-a307-4420-9a5c-7a43152471ae,l2,23,Each,b38103a4-125f-4361-8440-ab5a4e000477
+9390cfe0-049f-49c3-8092-ae9a59957a10,NULL,NULL,NULL,NULL,0,_binary '',88131686-5703-49c0-a325-0bfc9b1b4ec0,project 2 jobsite1 lineitem 2,4,Each,dc786f3b-8f6f-4b96-9e97-ce4ca0e5a31b
+95d01e28-6df0-4bcf-b52a-d4508040217e,NULL,NULL,NULL,NULL,777,_binary '',1c112b69-af6b-4d99-a7a4-d6cd9e8480a4,Loremline,10,Hourly,2c4ffdc8-a00b-4046-94ac-cdeaea0adf8a
+95ed6c05-7510-4406-8174-faf41dc7cf5f,NULL,NULL,NULL,NULL,10,_binary '',fa23f74a-ffca-4f48-9086-2b7da6b7e9c8,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",1,Hourly,1d00626a-7ea3-42d3-838b-a8a3addf16d2
+a12a4359-4b16-48be-a6e9-815c77ee2665,NULL,NULL,NULL,NULL,156,_binary '',2b1aa773-1f08-4047-9a41-0d0dde5c6d0a,PRP TEST 01-03-2024,1,Hourly,2c71f41c-444f-484f-9cdc-ea00fed1904c
+a236f279-70d8-4479-af1d-961620447202,NULL,NULL,NULL,NULL,0,_binary '',f38ac1d2-b2e7-40c8-8336-a22677d0fb92,prp LI1,111,Each,330ffc3e-040e-4e29-86b9-2b2b59d91f5a
+a2a7b28f-9e95-47b6-9e29-8ad25ffbf516,NULL,NULL,NULL,NULL,0,_binary '',facbddce-014d-467b-89be-5c6360602118,li3,45,LF,a1f5a90a-6b87-407b-9950-ee93de0e4815
+a3d5de86-88ed-4ea9-8eaa-819188bb1b65,NULL,NULL,NULL,NULL,11,_binary '',2a65c054-a95c-47fd-995f-0c2b031c270b,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",11,Each,9dcb7feb-2371-4ffc-b527-781ed2b8f53d
+a5f2df7b-6857-47e9-a4ac-f11ace70c216,NULL,NULL,NULL,NULL,12000,_binary '',84d8af6b-00ff-451c-988c-61c268fe063e,Mounting Structures	,110,Each,067f8fc8-aa1a-4e52-b440-43f9f7f4e83f
+a652b489-4905-4699-8a0c-90f65a7d42d9,NULL,NULL,NULL,NULL,100,_binary '',5c9aed16-a780-4d1c-bc8f-32696abf4531,Selenium Project,100,Hourly,239c5da2-dcbc-4673-b139-43d827cb58b4
+aa4e414c-bdd0-40e0-89e9-3cd16d896c10,NULL,NULL,NULL,NULL,11,_binary '',c2c2617a-787f-4d47-a883-074ecb68bfbb,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",11111111,Each,d2240161-bf94-46c5-bdd6-73410cd5d6ed
+aaa556a0-0e37-4e09-ad05-ddc4587fcfa7,NULL,NULL,NULL,NULL,565,_binary '',bdbcdf6c-4e05-491a-87d7-5d6df3706340,Test,5,Foot,16710f7a-fba4-44a2-bb61-c51eb8526132
+aaca7610-9093-46ed-836c-81267a3d066b,NULL,NULL,NULL,NULL,18000,_binary '',bc8a0893-2bf6-420b-8d6a-82fbdbfb631a,Inverter Units (5kW)	,11,Each,32c7efce-4f6b-4c85-a518-eade7149b7d0
+afc40725-6da3-45e4-9c7e-1362b339e7b9,NULL,NULL,NULL,NULL,1,_binary '',1fab9211-e7fd-4e06-a968-f82c5d355aea,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",111,Each,793ade5a-4d8e-40d0-a06d-e884c8bfd49c
+b15e6e31-064a-4712-befe-329bcc277a34,NULL,NULL,NULL,NULL,200,_binary '',b1ea2429-d3a9-46bb-8e6c-5a01e67132f5,jobsite1 lineitem1,2,Each,11e13a63-94ac-43b0-9b2d-413d31cafc6d
+b2138538-0b37-4c7b-92d0-80590d75e099,NULL,NULL,NULL,NULL,777,_binary '',b38e65f4-9d99-4d38-8005-0564dd750b42,Loremline,7,Hourly,7cd4a73d-7c85-4a13-b99d-d0f918304128
+b28714e2-fa4b-42ae-8d4d-194669202981,NULL,NULL,NULL,NULL,111,_binary '',c2291101-803b-4ac8-a0fe-fd509ab8fc6c,prp LI1,10,Each,ba6ee4f5-66c4-49d1-9631-01fd0f7656a1
+b306ea15-0c61-4f06-abf7-656fa565a5d4,NULL,NULL,NULL,NULL,400,_binary '',93ab7d40-76c5-45fb-8b55-0ebd4aeaf269,Mounting Structure Kit	,21,Each,86536148-e053-415d-8114-0576129fe655
+b4246dc0-dd25-447f-a2b4-d779fbbb1f7d,NULL,NULL,NULL,NULL,45,_binary '',8142e971-7cd6-426f-9ff2-22ca2cb4cea7,li3,25,LF,20d036b4-dd61-4cc8-81fa-2026a1102a86
+b7c1af22-5ba2-4f42-b5b6-4c3abe0d7b12,NULL,NULL,NULL,NULL,10,_binary '',2a9ebec5-5e79-4e20-a6f2-d6752ad297f2,li3,2,LF,e4e32d05-8c68-48c7-8db1-e156d2a33a94
+b9e3e711-47b1-48d6-95fb-712c43ef7a43,NULL,NULL,NULL,NULL,1111111111,_binary '',5c16828e-2b97-4107-9ff6-7d54fd651791,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",11111111,Each,4ecba98c-7559-40ab-b533-529589e6eeb1
+bc8db04d-84ec-4176-ab54-78ea0060d00f,NULL,NULL,NULL,NULL,1111111111,_binary '',5fb6142d-be1a-484a-b407-bc97fb32ee08,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",11111111,Each,8c52b954-aa76-48e8-96b0-cfe8e3383a8d
+bce5159f-4633-4354-ba61-f9b2112730df,NULL,NULL,NULL,NULL,5,_binary '',d6fe95e4-aa99-480d-8571-f6cb23b1835d,li3,2,LF,f7520a31-0ebe-4e67-9bd0-c50fa5c13a67
+be988518-2ff6-44e8-8320-c0a6d1091af8,NULL,NULL,NULL,NULL,0,_binary '',9df6be3d-fd64-4a8b-b566-5d70fc21cf11,li3,2,LF,db45654b-18ec-4a0f-836b-7297c5bdb61b
+bf0dbc4a-4947-4142-8eff-bdf2c0f2897f,NULL,NULL,NULL,NULL,111,_binary '',ce413c75-a6d6-40c2-a1a6-ccfd4d0b9433,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",111,Each,9b479331-38ad-4800-a24f-bfde4c666144
+c1f6fdcc-5f7b-4e4f-bef0-95dd2664d63e,NULL,NULL,NULL,NULL,5,_binary '',7a574a68-1fd5-4a30-8c6e-0ae3e301a387,Details specific tasks or components associated with the payment milestone.,2,LF,c9169482-f728-43c9-89e3-5b282487a19c
+c25496ac-47f0-4064-a805-315614806c0f,NULL,NULL,NULL,NULL,777,_binary '',84717709-e990-40fe-b9f6-76ab7037f7f6,LoremIpsumline,7,Hourly,70c53924-3cc8-4119-b9cf-dd3a4f9d7d92
+c304b26e-98de-4ea4-99de-dcc583ec07f0,NULL,NULL,NULL,NULL,50000,_binary '',b8a274cb-d93e-4811-bd0e-c2490935660b,O&M Contract (Annual)	,2,Each,50b97290-4544-47d4-8a91-bc8b5165a51d
+c3924bac-00b2-481c-9c41-7052ea95ecf9,NULL,NULL,NULL,NULL,84000,_binary '',11ddc0fb-d71b-44e3-a6b3-c8f308edb13b,Labor (Installation)	,1100,1,f16ddd6c-1c07-4557-a340-5fbda1d5cf84
+c4508807-82a3-45ed-9056-5df92f829fdb,NULL,NULL,NULL,NULL,45000,_binary '',7057bd05-ee9b-41a4-99f4-17a85d2eca92,Battery Storage (10kWh)	,25,1,001a23f5-2a61-48b8-bfe0-38517ec858fb
+c58c99bf-19d8-4c78-90a7-7f1c5651bdb1,NULL,NULL,NULL,NULL,787,_binary '',8ff5640f-20bd-4e91-8b6a-9aeb6141606e,li3,121,LF,f5813bab-f3c6-4984-913b-28bb71a23dda
+c62eaa2a-6443-4aa1-8e0a-d16e000310bd,NULL,NULL,NULL,NULL,75000,_binary '',d912b81d-6bfc-43f6-b65b-797fa5b709da,Site Preparation	,2,Each,efceb5ba-893c-48d3-a976-1e447bb48c79
+c8d8eaa0-22a5-4175-ac75-484270af0a41,NULL,NULL,NULL,NULL,777,_binary '',dcb055cb-1a23-4725-8a9c-7317db75a743,Loremline,2,Hourly,22fb4d35-173c-4194-ad94-97a88d35a904
+cb6824ec-7a45-4570-a61f-f74da4f73642,NULL,NULL,NULL,NULL,111,_binary '',3874b6a6-4c06-45ba-a006-90498b468d36,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",111,Each,0eafebca-97ea-4a45-8675-b6ef816edbad
+cfd1afc7-fdb5-41ba-a12b-83e52d7fbb6d,NULL,NULL,NULL,NULL,120,_binary '',82d9aece-ba3b-4ac9-b603-7819607f9811,LI1,12,Each,60949a78-a3c5-4aed-8a7d-f904dc4722c6
+d1a9d2c5-27fe-4e86-b8a6-b2ce19ba3d85,NULL,NULL,NULL,NULL,11,_binary '',2a716c0f-7cc8-42ae-a488-fb3b83d520d5,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",1111,Each,d6091d51-e416-4ecf-bcd7-0365186db6bc
+d47cea94-8d0b-47df-924b-7a2b61c7c526,NULL,NULL,NULL,NULL,156,_binary '',c3552f1b-b911-417e-8aa9-4fa0e68069c0,PRP TEST 01-03-2024,2525,Hourly,f486210a-29fe-4762-82a0-ccc36ec0492d
+d5714cf7-a5df-4f0e-b60f-ad232ad30b46,NULL,NULL,NULL,NULL,111,_binary '',0be556ea-0a38-4276-b4ae-21c1b887bc3d,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",111110,Hourly,55c26cdb-d923-46dd-8a3d-6de78e21ba56
+d5b2b54e-269a-4318-b6f4-d677295db125,NULL,NULL,NULL,NULL,11,_binary '',0957837c-3632-4ef5-926e-dee614c4fa13,li2,22,LF,8270927f-beab-4a71-9dcf-64761b117c73
+d7260d94-0bf3-4459-badf-0c254060275b,NULL,NULL,NULL,NULL,1111111111,_binary '',a87b2119-f377-42e9-bdb7-75e801ab1bfc,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",11111111,Each,121295eb-6a80-47c3-baac-2840b59ab15d
+d7997fbd-b495-4a29-9af1-a176ae48ef25,NULL,NULL,NULL,NULL,212,_binary '',5ca25b79-adcb-46b0-8f27-207744196eae,Testing QA,1,Each,366af8b4-92ec-4eaf-8bfc-c492a83ea9d3
+d7a765ca-8221-401c-80ec-e9df7644793b,NULL,NULL,NULL,NULL,0,_binary '',6ed9b8ff-4ae9-43fc-9fef-0a8a0275fbc9,li3,0,LF,515e2c0a-1f16-47c5-9881-535ee7d369f5
+dbaf1935-3325-47f9-b182-a250a19b2557,NULL,NULL,NULL,NULL,80000,_binary '',0de271e2-c910-4845-b362-b206e30bfb83,Mounting System (Ground)	,150,1,a3f6784f-b65d-4a31-8886-bc0f6bc36e13
+e30d24eb-3bd1-43e0-9646-799b6ca62b1d,NULL,NULL,NULL,NULL,0,_binary '',8b2c4eb2-7b56-4f0a-bc94-32c50af02396,li3,2,LF,2a5ea7f8-c5d6-4f7d-b079-8135bf674838
+e6e1f95c-82d3-4385-b06d-455b1215d4d4,NULL,NULL,NULL,NULL,1000,_binary '',493264f7-1f28-4372-9436-08712d5a08d6,Building1LI1,3,Each,c709bad2-2625-483b-b276-3c006d92cdce
+e717c756-d1d0-461b-8ccd-378ff0b88166,NULL,NULL,NULL,NULL,111,_binary '',b20e8e57-9381-4343-94ad-e176c2bd8396,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",111,Each,5770e29c-9ec4-4c3f-83fc-b9d0066388fa
+e765a4bf-9c57-460e-ab8e-2bd4fdce63c8,NULL,NULL,NULL,NULL,11,_binary '',b4f25285-d55e-4268-9751-2d509f4912a1,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",11,Each,e469287f-5696-4a72-8754-f4fed5297658
+e8eb9984-a2b6-4330-8234-8be36f9a8580,NULL,NULL,NULL,NULL,100,_binary '',d92a78be-f926-464d-a936-a9a3222b376f,PRP LI2,10,Hourly,b02ed929-730f-44f5-88af-11f4593192a0
+e9c14732-42eb-4328-9b2b-036776d29a42,NULL,NULL,NULL,NULL,1111111111,_binary '',8d026774-d6a4-496a-8806-1564ea6fe8fe,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",11111111,Each,41774730-d692-4af4-81f2-0cbc6c506c67
+eb4e935e-34d5-46f1-bbd6-4bc1123d8239,NULL,NULL,NULL,NULL,250,_binary '',6a79995c-7afa-4887-b232-d8234c2069e3,Solar PV Panels (350W)	,125,Each,69f025f7-ccee-4e00-b5f3-2ce768430d77
+ef5fb61a-48e4-4a5b-8af6-b9f857638341,NULL,NULL,NULL,NULL,42000,_binary '',910afb88-cc6f-4e75-8ab3-ef5051f28e7e,Solar PV Panels (350W)	,125,1,9d700925-6f25-4750-8b60-6f782a5cb2d7
+eff44af4-2a83-482a-a37d-eba44d9bba20,NULL,NULL,NULL,NULL,1230,_binary '',9f024ef9-bb32-4a0b-a3a2-a48705bde238,LI1,3,Each,4b179471-d541-43ea-83c7-d5cceb7f999d
+f0ab2935-7ec2-430b-b345-91a1a5bd7457,NULL,NULL,NULL,NULL,777,_binary '',d1abf0ed-ac8e-4cda-8056-e0bf28de9b25,Loremline,7,Hourly,c99f3a7a-bf54-41d0-bf71-0778d6558689
+f432cabd-ca12-4fe3-acbe-31ee87dc1342,NULL,NULL,NULL,NULL,777,_binary '',39ebbf5e-f13c-4649-83cc-d69111fef56a,Loremline,7,Hourly,24152211-f006-4790-8277-01614bf70417
+f6b8092f-6d09-4381-866f-3ed3337f3066,NULL,NULL,NULL,NULL,111,_binary '',10786f3d-fdf2-4b4b-a1e0-c2b172e80669,prp LI1,1,Each,e6af1c90-4c46-4b41-965b-07d948fa281e
+f75775ea-ef15-4c7d-8d52-6031193b3b3d,NULL,NULL,NULL,NULL,565,_binary '',629c20b4-8049-44e5-be75-29b97d290411,Test,0,Foot,64da1f74-0a14-4acf-83e4-f0ee823e64b8
+f94183cb-f46f-4ae6-9eb9-a4807424fd7f,NULL,NULL,NULL,NULL,10,_binary '',559a13a1-817a-4bbd-b100-5c84891aa9fb,li3,2,LF,0bd5e576-cebc-46d2-bd35-148a7f8a00a5
+fa70899b-49d9-4e17-aa8a-669f7bd3d533,NULL,NULL,NULL,NULL,11,_binary '',d5c0d82d-00d6-4661-8261-03c77e1998a6,"The standard Lorem Ipsum passage, used since the 1500s ""Lorem ipsum dolor sit amet, consectetur adip",11,Each,d57c80da-b9bf-4b3e-b9dc-92eed53838a6
+fd56b9b5-8cc1-42af-97f2-595053f8a190,NULL,NULL,NULL,NULL,100,_binary '',3f3288e5-e7d3-4ba5-aaa1-32ae20183a60,Nun Test Jobsite lineitem 2,2,Foot,a63a6b70-b754-42c5-9dd5-b7d88522bb18

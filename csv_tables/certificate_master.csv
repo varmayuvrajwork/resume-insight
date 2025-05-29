@@ -1,0 +1,22 @@
+id,created_by,created_date,updated_by,updated_date,is_enable,name
+086944bc-54b5-421f-9fa7-427e93a16ec5,NULL,2023-02-17 04:26:13,NULL,2023-02-17 04:26:13,_binary '',Master of Business Administration
+0b622560-c9da-4572-8580-7440fd14f799,NULL,2024-06-11 05:38:41,NULL,2024-06-11 05:38:41,_binary '',Testing QA
+1244441b-1ac0-48f3-b96c-b56ba2e840ba,NULL,2021-07-13 13:05:52,NULL,2021-07-13 13:05:52,_binary '',Bachelor's Degree
+2bca0fb4-f164-4de9-b6c2-6a5238e8e1a3,c8367fc3-d459-4b83-b48b-37521e6d4795,2021-06-29 07:47:58,c8367fc3-d459-4b83-b48b-37521e6d4795,2021-06-29 07:47:58,_binary '',NABCEP Certification
+2e3f9ba0-0d53-46ab-8497-7cff81a0ee13,NULL,2023-03-21 04:25:44,01,2024-04-16 05:48:22,_binary '',10 hour OSHA Construction certification and training
+355566c3-6ee3-4491-a19c-5555f1733d6a,NULL,2021-07-07 11:36:34,NULL,2021-07-07 11:36:34,_binary '',Driving License
+51d50005-613c-4bd1-9444-f1137a344c2f,02,2021-06-23 12:59:50,02,2021-06-23 12:59:50,_binary '',Certificate 3
+52e10579-1f38-4b2c-94a1-bdf41fe21be2,c8367fc3-d459-4b83-b48b-37521e6d4795,2023-02-25 16:13:30,c8367fc3-d459-4b83-b48b-37521e6d4795,2023-02-25 16:13:30,_binary '',Electrical Engineer
+6caae807-ea66-402e-888e-30ea9d7e9163,c8367fc3-d459-4b83-b48b-37521e6d4795,2023-01-20 12:25:04,c8367fc3-d459-4b83-b48b-37521e6d4795,2023-01-20 12:25:04,_binary '',Licensed Professional Engineer
+6ec2ec78-a784-480a-9c41-8a49a63ab85b,c8367fc3-d459-4b83-b48b-37521e6d4795,2021-06-25 16:59:18,c8367fc3-d459-4b83-b48b-37521e6d4795,2021-06-25 16:59:18,_binary '',Electrical License
+78e62ba4-1093-4f7d-bd3c-e2a251886acf,NULL,2023-05-18 06:33:52,NULL,2024-01-18 07:28:02,_binary '0',test
+81454c0e-3f07-4e50-b713-cfdc60973f52,02,2021-06-23 12:26:10,02,2021-06-23 12:26:10,_binary '',Certificate 2
+90e35acf-b1e2-453d-a425-14e1a234e44f,NULL,2023-05-18 06:49:35,NULL,2024-01-18 07:28:05,_binary '0',test23
+96470dd2-535c-4884-b49a-5b788ece4c47,NULL,2021-08-10 13:26:11,NULL,2021-08-10 13:26:11,_binary '',CDL A
+9dc8332a-d8fb-45fa-9b71-e75b61f3295c,01,2024-04-09 11:06:36,01,2024-04-09 11:06:36,_binary '',This is certificate with 50 characters long string
+a77cf389-0b6f-4537-bec7-f71ea9b7980b,c8367fc3-d459-4b83-b48b-37521e6d4795,2023-01-20 09:42:58,c8367fc3-d459-4b83-b48b-37521e6d4795,2023-01-20 09:42:58,_binary '',Associate Degree
+bc6f91d4-59fb-4942-a046-d002ac538605,NULL,2021-06-29 07:47:33,NULL,2021-06-29 07:47:33,_binary '',High School Diploma
+de82c1a2-4db8-4038-b46d-c14d35f680cb,NULL,2024-03-28 09:38:44,NULL,2024-03-28 09:38:44,_binary '',Test certificate
+eb1b8bef-ad15-48a1-8f84-9bb42d809202,NULL,2021-06-25 13:14:28,NULL,2021-06-25 13:14:28,_binary '',Certificate 4
+ecb1c9e4-ebd0-45d9-be02-312c815770c1,NULL,2023-12-01 05:11:45,NULL,2024-01-18 07:27:51,_binary '0',p*y*l
+eea16b21-d94f-4add-a396-5bd9fbceb2a7,01,2021-06-23 12:13:36,01,2021-06-23 12:13:36,_binary '',Certificate 1

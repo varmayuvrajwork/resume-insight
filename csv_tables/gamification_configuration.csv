@@ -1,0 +1,2 @@
+id,created_by,created_date,updated_by,updated_date,is_gamification_configuration_enable,gamification_configuration_client_id,gamification_configuration_subcontractor_id,gamification_configuration_worker_id
+gc,SYSTEM,2021-09-09 11:29:49,SYSTEM,2024-08-02 06:59:06,_binary '',gcc01,gcs01,gcw01

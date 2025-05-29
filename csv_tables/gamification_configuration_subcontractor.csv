@@ -1,0 +1,2 @@
+id,created_by,created_date,updated_by,updated_date,comments,jobsite_cost,jobsite_points_ge,jobsite_points_l,photo,power_user_point,qr_below_three_point,qr_four_five_point,qr_three_four_point,reference_point,sr_below_three_point,sr_four_five_point,sr_three_four_point,yellow_red_hat_point
+gcs01,NULL,2021-09-09 11:29:49,NULL,2024-08-02 06:43:44,<p>Benefits of a Month for Subcontractor</p>,1000,10,5,NULL,100,0,20,10,5,0,20,10,200
