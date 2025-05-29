@@ -1,5 +1,5 @@
-final_dump.sql
-csv_tables/worker_attachment.csv
+#final_dump.sql
+#csv_tables/worker_attachment.csv
 *.parquet
 *.pyc
 __pycache__/
