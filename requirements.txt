@@ -5,9 +5,9 @@ pandas==2.2.2
 pyarrow==15.0.2
 
 openai==1.82.0
-langchain==0.3.62
+langchain==0.3.25
 langchain-openai==0.3.18
 langgraph==0.0.47
 
-tiktoken==0.6.0
+tiktoken==0.7.0
 python-dotenv==1.0.1
