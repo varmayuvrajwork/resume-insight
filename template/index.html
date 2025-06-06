@@ -9,33 +9,28 @@
             padding: 2rem;
             background-color: #f8f9fa;
       }
-      #result {
-            white-space: pre-wrap;
+      .flashcard {
             background: #fff;
             border-radius: 6px;
             padding: 1rem;
             box-shadow: 0 0 10px rgba(0,0,0,0.05);
-            max-height: 600px;
-            overflow-y: auto;
+            margin-bottom: 1rem;
+      }
+      .flashcard h5 {
+            margin-bottom: 0.5rem;
       }
       #loadingSpinner {
             display: none;
       }
-      table {
-            font-size: 14px;
-            word-break: break-word;
-            }
-      th {
-            background-color: #f0f0f0;
-            }
       </style>
 </head>
 <body>
       <div class="container">
       <h2 class="mb-4 text-center">🔍 Resume Insights (AI Powered)</h2>
-      <form id="queryForm" method="post">
-            <div class="input-group mb-3">
-            <input type="text" class="form-control" name="query" placeholder="Ask anything like 'Resumes with Python'" required>
+
+      <form id="queryForm" class="mb-3">
+            <div class="input-group">
+            <input type="text" class="form-control" id="queryInput" placeholder="Ask anything like 'Resumes with Creative Director'" required>
             <button class="btn btn-primary" type="submit">Search</button>
             </div>
       </form>
@@ -46,20 +41,49 @@
             </div>
       </div>
 
-      {% if result %}
-            <div id="result" class="mt-4">{{ result|safe }}</div>
-                  <div class="text-end mt-3">
-                        <a href="/download" class="btn btn-success">⬇️ Download CSV</a>
-                  </div>
-            </div>
-      {% endif %}
+      <div id="results"></div>
+      </div>
 
       <script>
       const form = document.getElementById("queryForm");
+      const input = document.getElementById("queryInput");
       const spinner = document.getElementById("loadingSpinner");
+      const resultsContainer = document.getElementById("results");
 
-      form.addEventListener("submit", () => {
+      form.addEventListener("submit", async (e) => {
+            e.preventDefault();
+            resultsContainer.innerHTML = "";
             spinner.style.display = "inline-block";
+
+            const query = input.value;
+            const response = await fetch("/chat", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ message: query })
+            });
+
+            const data = await response.json();
+            spinner.style.display = "none";
+
+            if (data.flashcards && data.flashcards.length > 0) {
+            data.flashcards.forEach(card => {
+            const div = document.createElement("div");
+            div.className = "flashcard";
+
+            div.innerHTML = `
+                  <h5>${card.job_title || 'Untitled'}</h5>
+                  <p><strong>File:</strong> ${card.file_name || '-'}</p>
+                  <p><strong>Skills:</strong> ${card.skills || '-'}</p>
+                  <p><strong>Location:</strong> ${card.location || '-'}</p>
+                  <p><strong>Created:</strong> ${card.created_date || '-'}</p>
+                  <p><strong>Updated:</strong> ${card.updated_date || '-'}</p>
+            `;
+
+            resultsContainer.appendChild(div);
+            });
+            } else {
+            resultsContainer.innerHTML = `<div class="alert alert-warning">No results found.</div>`;
+            }
       });
       </script>
 </body>
