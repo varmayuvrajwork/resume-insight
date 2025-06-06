@@ -79,28 +79,29 @@ def search_tables(state: WorkflowState) -> dict:
                         value = f["value"]
                         filter_type = f.get("filter_type", "contains")
 
-                  if field not in df.columns:
-                        for fallback in fallback_fields:
-                              if fallback in df.columns:
-                                    field = fallback
+                        # Field fallback
+                        if field not in df.columns:
+                              for fallback in fallback_fields:
+                                    if fallback in df.columns:
+                                          field = fallback
                                     break
 
-                  if field not in df.columns:
-                        continue
+                        if field not in df.columns:
+                              continue
 
-                  series = df[field].fillna("").astype(str).str.lower()
-                  if filter_type == "contains":
-                        match = series.str.contains(value, na=False)
-                  elif filter_type == "equals":
-                        match = series == value
-                  elif filter_type == "startswith":
-                        match = series.str.startswith(value)
-                  elif filter_type == "endswith":
-                        match = series.str.endswith(value)
-                  else:
-                        match = series.str.contains(value, na=False)
+                        series = df[field].fillna("").astype(str).str.lower()
+                        if filter_type == "contains":
+                              match = series.str.contains(value, na=False)
+                        elif filter_type == "equals":
+                              match = series == value
+                        elif filter_type == "startswith":
+                              match = series.str.startswith(value)
+                        elif filter_type == "endswith":
+                              match = series.str.endswith(value)
+                        else:
+                              match = series.str.contains(value, na=False)
 
-                  mask &= match
+                        mask &= match
 
                   filtered = df[mask]
                   if not filtered.empty:

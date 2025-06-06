@@ -11,3 +11,8 @@ langgraph==0.0.47
 
 tiktoken==0.7.0
 python-dotenv==1.0.1
+
+azure_ai_inference
+azure_core
+ChromaDB
+sentence-transformers
