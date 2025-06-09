@@ -1,72 +1,85 @@
-from flask import Flask, request, render_template, send_file, jsonify
+from flask import Flask, request, render_template, send_file, jsonify, session
 import pandas as pd
 import os
 import io
 from data_loader import DataLoader
 from azure_llm import parse_query_with_azure_llm
+from openai import AzureOpenAI
 
 app = Flask(__name__, template_folder="template")
+app.secret_key = "resume-insight-2025-key"
+
 CSV_DIR = os.path.join(os.getcwd(), "csv_tables")
 loader = DataLoader(CSV_DIR)
 tables = loader.get_all_tables()
 
 last_filtered_df = pd.DataFrame()
 
-def apply_filters(query):
-      global last_filtered_df
-      highlight_word = ""
-      result_html = ""
-      result_json = []
-
-      state = {"query": query, "tables": list(tables.keys())}
-      from graph import search_tables  # Delayed import in case of circulars
-      output = search_tables(state)
-
-      result_html = output.get("result", "")
-      result_json = []
-      if "dataframes" in output and output["dataframes"]:
-            last_filtered_df = pd.concat(output["dataframes"], ignore_index=True)
-            for _, row in last_filtered_df.iterrows():
-                  result_json.append({
-                  "file_name": row.get("file_name", ""),
-                  "job_title": row.get("job_title", ""),
-                  "skills": row.get("skills_extracted", ""),
-                  "location": row.get("location", ""),
-                  "created_date": row.get("created_date", ""),
-                  "updated_date": row.get("updated_date", "")
-                  })
-
-      # Highlight keyword for HTML
-      filter = parse_query_with_azure_llm(query)
-      if isinstance(filter, dict):
-            for val in filter.values():
-                  if isinstance(val, str):
-                        highlight_word = val.strip()
-                        break
-                  elif isinstance(val, list) and val:
-                        highlight_word = str(val[0]).strip()
-                        break
-
-      if highlight_word:
-            result_html = result_html.replace(highlight_word, f"<mark>{highlight_word}</mark>")
-
-      return result_html, result_json
-
-@app.route("/", methods=["GET", "POST"])
+@app.route("/", methods=["GET"])
 def index():
-      result_html = ""
-      if request.method == "POST":
-            query = request.form["query"]
-            result_html, _ = apply_filters(query)
-      return render_template("index.html", result=result_html)
+      return render_template("index.html")
 
 @app.route("/chat", methods=["POST"])
 def chat():
-      user_query = request.json.get("message", "")
-      if not user_query:
+      global last_filtered_df
+      user_message = request.json.get("message", "")
+      mode = request.json.get("mode", "llm")
+
+      if not user_message:
             return jsonify({"error": "No message provided"}), 400
-      _, flashcards = apply_filters(user_query)
-      return jsonify({"flashcards": flashcards})
+
+      if mode == "resume":
+            from graph import search_tables
+            state = {"query": user_message, "tables": list(tables.keys())}
+            output = search_tables(state)
+
+            result_html = output.get("result", "No matching resumes found.")
+            if "dataframes" in output and output["dataframes"]:
+                  last_filtered_df = pd.concat(output["dataframes"], ignore_index=True)
+            return jsonify({"reply": result_html})
+
+      # Chat mode (LLM)
+      if "chat_history" not in session:
+            session["chat_history"] = []
+
+      history = session["chat_history"]
+
+      try:
+            client = AzureOpenAI(
+                  api_key=os.getenv("AZURE_OPENAI_KEY"),
+                  api_version="2024-12-01-preview",
+                  azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
+            )
+
+            response = client.chat.completions.create(
+                  model=os.getenv("AZURE_DEPLOYMENT_NAME"),
+                  messages=[
+                  {"role": "system", "content": "You are a helpful assistant for resume and hiring-related queries."},
+                  *history,
+                  {"role": "user", "content": user_message}
+                  ],
+                  temperature=0.4
+            )
+
+            assistant_reply = response.choices[0].message.content.strip()
+
+            # Update session memory
+            history.extend([
+                  {"role": "user", "content": user_message},
+                  {"role": "assistant", "content": assistant_reply}
+            ])
+            session["chat_history"] = history
+
+            return jsonify({"reply": assistant_reply})
+
+      except Exception as e:
+            print("❌ Chat error:", e)
+            return jsonify({"error": "Internal server error", "details": str(e)}), 500
+
+@app.route("/clear", methods=["POST"])
+def clear_chat():
+      session["chat_history"] = []
+      return jsonify({"status": "cleared"})
 
 @app.route("/download", methods=["GET"])
 def download_csv():

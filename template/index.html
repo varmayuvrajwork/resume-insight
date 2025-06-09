@@ -1,97 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      <meta charset="UTF-8">
-      <title>Resume Insights Search</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-      <style>
-      body {
-            padding: 2rem;
-            background-color: #f8f9fa;
-      }
-      .flashcard {
-            background: #fff;
-            border-radius: 6px;
-            padding: 1rem;
-            box-shadow: 0 0 10px rgba(0,0,0,0.05);
-            margin-bottom: 1rem;
-      }
-      .flashcard h5 {
-            margin-bottom: 0.5rem;
-      }
-      #loadingSpinner {
-            display: none;
-      }
-      </style>
+  <meta charset="UTF-8">
+  <title>Resume Insights Chatbot</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding: 2rem;
+      background-color: #f8f9fa;
+    }
+    #chatBox {
+      background: #fff;
+      border-radius: 6px;
+      padding: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      height: 400px;
+      overflow-y: auto;
+      margin-bottom: 1rem;
+    }
+    .message {
+      margin-bottom: 0.75rem;
+    }
+    .message strong {
+      display: block;
+    }
+    #loadingSpinner {
+      display: none;
+    }
+  </style>
 </head>
 <body>
-      <div class="container">
-      <h2 class="mb-4 text-center">🔍 Resume Insights (AI Powered)</h2>
+  <div class="container">
+    <h2 class="mb-4 text-center">💬 Resume Insights Chatbot</h2>
 
-      <form id="queryForm" class="mb-3">
-            <div class="input-group">
-            <input type="text" class="form-control" id="queryInput" placeholder="Ask anything like 'Resumes with Creative Director'" required>
-            <button class="btn btn-primary" type="submit">Search</button>
-            </div>
-      </form>
+    <div id="chatBox"></div>
 
-      <div class="text-center my-3">
-            <div id="loadingSpinner" class="spinner-border text-primary" role="status">
-            <span class="visually-hidden">Loading...</span>
-            </div>
-      </div>
+    <form id="queryForm" class="input-group mb-3">
+      <input type="text" class="form-control" id="queryInput" placeholder="Ask anything like 'Find resumes with Python'" required>
+      <button class="btn btn-primary" type="submit">Send</button>
+    </form>
 
-      <div id="results"></div>
-      </div>
+    <div class="form-check form-switch mb-3">
+      <input class="form-check-input" type="checkbox" id="toggleMode">
+      <label class="form-check-label" for="toggleMode">Resume Filter Mode</label>
+    </div>
 
-      <script>
-            const form = document.getElementById("queryForm");
-            const input = document.getElementById("queryInput");
-            const spinner = document.getElementById("loadingSpinner");
-            const resultsContainer = document.getElementById("results");
+    <div class="text-center my-2" id="loadingSpinner">
+      <div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div>
+    </div>
 
-            form.addEventListener("submit", async (e) => {
-                  e.preventDefault();  // Prevent form submission
-                  resultsContainer.innerHTML = "";
-                  spinner.style.display = "inline-block";
-            
-                  const query = input.value;
-            
-                  try {
-                  const response = await fetch("/chat", {
-                        method: "POST",
-                        headers: { "Content-Type": "application/json" },
-                        body: JSON.stringify({ message: query })
-                  });
-            
-                  const data = await response.json();
-                  spinner.style.display = "none";
-            
-                  if (data.flashcards && data.flashcards.length > 0) {
-                        data.flashcards.forEach(card => {
-                        const div = document.createElement("div");
-                        div.className = "flashcard";
-            
-                        div.innerHTML = `
-                        <h5>${card.job_title || 'Untitled'}</h5>
-                        <p><strong>File:</strong> ${card.file_name || '-'}</p>
-                        <p><strong>Skills:</strong> ${card.skills || '-'}</p>
-                        <p><strong>Location:</strong> ${card.location || '-'}</p>
-                        <p><strong>Created:</strong> ${card.created_date || '-'}</p>
-                        <p><strong>Updated:</strong> ${card.updated_date || '-'}</p>
-                        `;
-            
-                        resultsContainer.appendChild(div);
-                        });
-                  } else {
-                        resultsContainer.innerHTML = `<div class="alert alert-warning">No results found.</div>`;
-                  }
-                  } catch (error) {
-                  console.error("❌ Fetch error:", error);
-                  spinner.style.display = "none";
-                  resultsContainer.innerHTML = `<div class="alert alert-danger">Server error. Please try again later.</div>`;
-                  }
-                  });
-            </script>
+    <div class="text-center">
+      <button class="btn btn-danger" id="clearBtn">Clear Chat</button>
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById("queryForm");
+    const input = document.getElementById("queryInput");
+    const chatBox = document.getElementById("chatBox");
+    const spinner = document.getElementById("loadingSpinner");
+    const modeToggle = document.getElementById("toggleMode");
+    const clearBtn = document.getElementById("clearBtn");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const userMsg = input.value.trim();
+      if (!userMsg) return;
+
+      appendMessage("You", userMsg);
+      input.value = "";
+      spinner.style.display = "block";
+
+      const mode = modeToggle.checked ? "resume" : "llm";
+
+      try {
+        const response = await fetch("/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message: userMsg, mode })
+        });
+
+        const data = await response.json();
+        spinner.style.display = "none";
+
+        if (data.reply) {
+          appendMessage("Bot", data.reply);
+        } else {
+          appendMessage("Bot", "❌ Error: " + (data.error || "No response"));
+        }
+      } catch (err) {
+        spinner.style.display = "none";
+        appendMessage("Bot", "❌ Network error");
+      }
+    });
+
+    clearBtn.addEventListener("click", async () => {
+      await fetch("/clear", { method: "POST" });
+      chatBox.innerHTML = "";
+    });
+
+    function appendMessage(sender, message) {
+      const div = document.createElement("div");
+      div.className = "message";
+      div.innerHTML = `<strong>${sender}:</strong> ${message}`;
+      chatBox.appendChild(div);
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+  </script>
 </body>
 </html>

@@ -115,15 +115,37 @@ def search_tables(state: WorkflowState) -> dict:
       if not dfs:
             return {"result": "No results found."}
 
-      combined_results = []
+      # Step: Prioritize workers_attachment for natural summary
+      summary_text = ""
       for table, df in dfs:
-            html_table = df.head(10).to_html(index=False, classes="table table-bordered table-sm table-striped")
-            combined_results.append(f"<h5>🗂️ Table: <code>{table}</code></h5>{html_table}")
+            if table == "worker_attachment":
+                  summary_df = df.head(10)
+                  summary_prompt = f"Summarize this resume data in plain language for a user query: '{query}'. Be brief, focus on job titles, locations, and skills:\n\n{summary_df.to_string(index=False)}"
+                  
+                  try:
+                        from azure_llm import client
+                        response = client.chat.completions.create(
+                        model=os.getenv("AZURE_DEPLOYMENT_NAME"),
+                        messages=[
+                              {"role": "system", "content": "You summarize resume data into simple conversational summaries."},
+                              {"role": "user", "content": summary_prompt}
+                        ],
+                        temperature=0.3,
+                        max_tokens=250
+                        )
+                        summary_text = response.choices[0].message.content.strip()
+                  except Exception as e:
+                        summary_text = "Error generating summary."
+
+      # Fallback if no worker_attachment found
+      if not summary_text:
+            summary_text = "I found some resumes matching your query, but couldn’t summarize them clearly."
 
       return {
-            "result": "<br><br>".join(combined_results),
-            "dataframes": [df for _, df in dfs]
+      "result": summary_text,
+      "dataframes": [df for _, df in dfs if df is not None]
       }
+
 
 
 
